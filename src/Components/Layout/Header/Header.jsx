@@ -23,7 +23,7 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { BsCardChecklist } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { FaChevronDown, FaRegHandshake } from 'react-icons/fa';
-import logo from '../../../Assets/Logos/black.png';
+import logo from '../../../Assets/Logos/munGreyLogo.png';
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -47,7 +47,7 @@ const Header = () => {
         <DrawerContent>
           <DrawerHeader color={'crimson'} borderBottomWidth={'2px'} >
             <Container justifyContent="center" alignItems={'center'}>
-              <Image src={logo} width={'250px'} alt="Dan Abramov" />
+              <Image src={logo} width={'150px'} alt="Dan Abramov" />
             </Container>
           </DrawerHeader>
           <DrawerBody>
