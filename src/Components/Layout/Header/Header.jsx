@@ -15,7 +15,6 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import React from 'react';
-// import { ColorModeSwitcher } from '../../../ColorModeSwitcher';
 import { RiMenu5Fill, RiTeamLine, RiRegisteredLine } from 'react-icons/ri';
 import { GiSmartphone } from 'react-icons/gi';
 import { GrDocumentConfig, GrGallery } from 'react-icons/gr';
@@ -28,7 +27,6 @@ const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      {/* <ColorModeSwitcher /> */}
       <Button
         colorScheme={'green'}
         position="fixed"
@@ -45,7 +43,7 @@ const Header = () => {
       <Drawer placement="left" isOpen={isOpen} onClose={onClose}>
         <DrawerOverlay backdropFilter={'blur(10px)'} />
         <DrawerContent>
-          <DrawerHeader color={'crimson'} borderBottomWidth={'2px'} >
+          <DrawerHeader borderBottomWidth={'2px'} >
             <Container justifyContent="center" alignItems={'center'}>
               <Image src={logo} width={'150px'} alt="Dan Abramov" />
             </Container>

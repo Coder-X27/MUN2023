@@ -4,6 +4,7 @@
   height: 100vh;
   position: relative;
   /* clip-path: polygon(0 0, 100% 0%, 70% 100%, 0 100%); */
+  background-attachment: fixed;
 }
 .landingPage::after {
     content: '';
@@ -16,4 +17,51 @@
     /* clip-path: polygon(0 0, 100% 0%, 70% 100%, 0 100%); */
     opacity: 0.7;
     z-index: -1;
+}
+.aboutBoxes {
+  width: 85%;
+  margin: auto;
+  margin-top: 2vmax;
+  display: flex;
+}
+.aboutBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1vmax 2vmax;
+  border: 2px solid black;
+  background: green;
+  background: linear-gradient(
+    180deg,
+    #308C5E,
+    rgba(0, 0, 0, 0.825) 100%
+  );
+  text-align: center;
+}
+.boxText span {
+  font-size: 2vmax;
+  font-weight: 500;
+}
+.boxText {
+  font-size: 1.2vmax;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 500px) {
+  .aboutBoxes {
+    flex-direction: column;
+  }
+  .aboutBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 1vmax;
+  }
+  .aboutIntroSection {
+    flex-direction: column;
+    width: 100%;
+  }
+  
 }
