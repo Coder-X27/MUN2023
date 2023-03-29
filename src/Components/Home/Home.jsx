@@ -9,6 +9,11 @@ import {
   Image,
   SimpleGrid,
   Stack,
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Tabs,
   Text,
   VStack,
 } from '@chakra-ui/react';
@@ -18,10 +23,18 @@ import bg from '../../Assets/Logos/bg2.jpg';
 import intro from '../../Assets/images/aboutIntro.jpeg';
 import unsc from '../../Assets/images/UNSClogo.png';
 import './Home.css';
-import { FaAngellist, FaBookReader,  FaConnectdevelop, FaCreativeCommonsBy, FaRegCalendarCheck, FaRegShareSquare } from 'react-icons/fa';
+import {
+  FaAngellist,
+  FaBookReader,
+  FaConnectdevelop,
+  FaCreativeCommonsBy,
+  FaRegCalendarCheck,
+  FaRegShareSquare,
+} from 'react-icons/fa';
 const Home = () => {
   return (
     <>
+      {/* HOME PAGE  */}
       <Box className="landingPage">
         <Container
           minWidth={'80%'}
@@ -62,7 +75,8 @@ const Home = () => {
           </Button>
         </Container>
       </Box>
-      <Box minHeight={'100vh'} bgColor="red.50">
+      {/* ABOUT SECTION  */}
+      <Box minHeight={'100vh'} bgColor="whatsapp.50">
         <Container
           minWidth={'85%'}
           minHeight="100vh"
@@ -122,25 +136,45 @@ const Home = () => {
           <Stack width={'100%'} marginTop={['10', '20']} alignItems={'center'}>
             <Box className="aboutBoxes">
               <Box className="aboutBox">
-                <Heading className="boxText" color={'white'}>
+                <Heading
+                  className="boxText"
+                  fontSize={'18px'}
+                  fontWeight="semibold"
+                  color={'white'}
+                >
                   <span>2000+</span> <br />
                   delegates
                 </Heading>
               </Box>
               <Box className="aboutBox">
-                <Heading className="boxText" color={'white'}>
+                <Heading
+                  className="boxText"
+                  fontSize={'18px'}
+                  fontWeight="semibold"
+                  color={'white'}
+                >
                   <span>100+</span> <br />
                   INTERNATIONAL DELEGATES
                 </Heading>
               </Box>
               <Box className="aboutBox">
-                <Heading className="boxText" color={'white'}>
+                <Heading
+                  className="boxText"
+                  fontSize={'18px'}
+                  fontWeight="semibold"
+                  color={'white'}
+                >
                   <span>700+</span> <br />
                   PARTICIPATION INSTITUTES
                 </Heading>
               </Box>
               <Box className="aboutBox">
-                <Heading className="boxText" color={'white'}>
+                <Heading
+                  className="boxText"
+                  fontSize={'18px'}
+                  fontWeight="semibold"
+                  color={'white'}
+                >
                   <span>14 Lakh+</span> <br />
                   MASSIVE OUTREACH
                 </Heading>
@@ -194,6 +228,7 @@ const Home = () => {
           </Stack>
         </Container>
       </Box>
+      {/* JECRC MUN EXCELLENCIES  */}
       <Box
         backgroundAttachment={'fixed'}
         backgroundColor="blackAlpha.600"
@@ -211,7 +246,7 @@ const Home = () => {
             justifyContent="center"
             alignItems={'center'}
           >
-            <Heading color={'white'} fontWeight="semibold" marginTop={'20'}>
+            <Heading color={'white'} fontSize={['22px','35px']} fontWeight="semibold" marginTop={'20'}>
               JECRC MUN EXCELLENCIES
             </Heading>
             <SimpleGrid
@@ -226,7 +261,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={'100px'}>
+                  <Heading fontSize={['50px','100px']}>
                     <FaBookReader color="green" />
                   </Heading>
                   <Heading
@@ -244,7 +279,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize="17px"
+                    fontSize={['15px',"17px"]}
                   >
                     JECRC MUN is an ideal place to hone your public speaking,
                     writing and analytical skills. All writing piece will
@@ -262,7 +297,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={'100px'}>
+                  <Heading fontSize={['50px','100px']}>
                     <FaConnectdevelop color="green" />
                   </Heading>
                   <Heading
@@ -280,7 +315,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize="17px"
+                    fontSize={['15px',"17px"]}
                   >
                     JECRC MUN will provide you with an opportunity to meet many
                     talented people throughout the country, discover new
@@ -298,7 +333,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={'100px'}>
+                  <Heading fontSize={['50px','100px']}>
                     <FaRegShareSquare color="green" />
                   </Heading>
                   <Heading
@@ -316,7 +351,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize="17px"
+                    fontSize={['15px',"17px"]}
                   >
                     Model UN is a great educational tool that provides extremely
                     valuable benefits to students. At JECRC MUN, students learn
@@ -330,6 +365,7 @@ const Home = () => {
           </Container>
         </Container>
       </Box>
+      {/* CAMPUS AMBASSADOR  */}
       <Box
         backgroundAttachment={'fixed'}
         backgroundColor="blackAlpha.600"
@@ -347,11 +383,12 @@ const Home = () => {
             justifyContent="center"
             alignItems={'center'}
           >
-            <Heading color={'white'} fontWeight="semibold">
-              Become Our Campur Ambassador
+            <Heading color={'white'} fontWeight="semibold" fontSize={['22px','35px']} marginTop={'20'}>
+              Become Campus Ambassador
             </Heading>
             <SimpleGrid
               marginTop={'20'}
+              marginBottom={'20'}
               spacing={4}
               templateColumns="repeat(auto-fill, minmax(350px, 1fr))"
             >
@@ -362,7 +399,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={'100px'}>
+                  <Heading fontSize={['50px','100px']}>
                     <FaRegCalendarCheck color="green" />
                   </Heading>
                   <Heading
@@ -380,7 +417,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize="17px"
+                    fontSize={['15px',"17px"]}
                   >
                     Campus Ambassadors of JECRC MUN are entitled to additional
                     benefits in form of concessions and discounts. This is an
@@ -397,7 +434,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={'100px'}>
+                  <Heading fontSize={['50px','100px']}>
                     <FaCreativeCommonsBy color="green" />
                   </Heading>
                   <Heading
@@ -415,7 +452,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize="17px"
+                    fontSize={['15px',"17px"]}
                   >
                     As a campus ambassador you get to enhance your network
                     within your campus with the prestigious tag of JECRC MUN.
@@ -431,7 +468,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={'100px'}>
+                  <Heading fontSize={['50px','100px']}>
                     <FaAngellist color="green" />
                   </Heading>
                   <Heading
@@ -449,7 +486,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize="17px"
+                    fontSize={['15px',"17px"]}
                   >
                     The merits of being a Campus Ambassador don't end with the
                     conference, but stay with you thereafter. A certificate
@@ -460,6 +497,180 @@ const Home = () => {
                 </CardBody>
               </Card>
             </SimpleGrid>
+          </Container>
+        </Container>
+      </Box>
+      {/* COMMITIES  */}
+      <Box width={'100%'} backgroundColor="whatsapp.50" minHeight={'100vh'}>
+        <Container
+          minWidth={'85%'}
+          minHeight="100vh"
+          display="flex"
+          flexDir={'column'}
+          justifyContent="center"
+          alignItems={'center'}
+        >
+          <Heading>Committes</Heading>
+          <Heading>To be Announced....</Heading>
+        </Container>
+      </Box>
+      {/* REGISTRATION  */}
+      <Box width={'100%'} backgroundColor="whatsapp.100" minHeight={'100vh'}>
+        <Container
+          minWidth={'85%'}
+          minHeight="100vh"
+          display="flex"
+          flexDir={'column'}
+          justifyContent="center"
+          alignItems={'center'}
+        >
+          <Heading>Registrations</Heading>
+          {/* <Heading>Opening Soon....</Heading> */}
+          <Tabs isFitted variant="enclosed">
+            <TabList mb="1em">
+              <Tab colorScheme="green">
+                <Heading>One</Heading>
+              </Tab>
+              <Tab colorScheme="green">
+                <Heading>Two</Heading>
+              </Tab>
+              <Tab colorScheme="green">
+                <Heading>three</Heading>
+              </Tab>
+              <Tab colorScheme="green">
+                <Heading>four</Heading>
+              </Tab>
+            </TabList>
+            <TabPanels>
+              <TabPanel>
+                <p>one!</p>
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
+        </Container>
+      </Box>
+      {/* CHIEF GUESTS  */}
+      <Box
+        backgroundAttachment={'fixed'}
+        backgroundColor="blackAlpha.600"
+        backgroundImage={bg}
+        backgroundPosition="center"
+        backgroundRepeat={'no-repeat'}
+        backgroundSize="cover"
+      >
+        <Container background={'blackAlpha.800'} minWidth="100%">
+          <Container
+            minWidth={'85%'}
+            minHeight="80vh"
+            display="flex"
+            flexDir={'column'}
+            justifyContent="center"
+            alignItems={'center'}
+          >
+            <Heading color={'white'} letterSpacing="2px" marginTop={'20'}>
+              {' '}
+              CHIEF GUESTS
+            </Heading>
+            <Card
+              width={['100%','90%']}
+              direction={{ base: 'column', sm: 'row' }}
+              overflow="hidden"
+              variant="filled"
+              colorScheme={'green'}
+              marginTop={'10'}
+            >
+              <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src="https://www.jecrcmun.in/images/Satish.jpg"
+                alt="Caffe Latte"
+              />
+
+              <Stack>
+                <CardBody p={['15px','50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                    Satish C. Mehta
+                  </Heading>
+                  <Text size="md" fontStyle={'italic'}>
+                    Former Indian Ambassador to Kuwait
+                  </Text>
+
+                  <Text py="2" fontSize={['15px','18px']}>
+                    Ambassador Satish C. Mehta joined the Indian Foreign Service
+                    in 1983 and retired as Director General, Indian Council for
+                    Cultural Relations (ICCR) in September, 2015. Earlier, after
+                    serving in France, Ivory Coast and Italy, he was Political
+                    Advisor to UN Head of Mission in Haiti during UN Peace
+                    Keeping Operations in 1995-96. He served as Director in the
+                    Indian Prime Minister's Office from 1997 to 1999 dealing
+                    with the strategic sector- External Affairs, Defence, Atomic
+                    Energy, Space and S&T. During July 1999 to July 2002 he was
+                    Political Counsellor in the Indian Mission to the United
+                    Nations in New York, from where he went as Deputy Chief of
+                    Mission in Tel Aviv from 2002-2005. He served as India's
+                    Consul General in Toronto from 2005-2008 and as Joint
+                    Secretary of Nepal and Bhutan Division in the Ministry of
+                    External Affairs from October 2008 until July, 2011. He was
+                    Indian Ambassador in Kuwait from July 2011 until November,
+                    2013.
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            <Card
+              width={['100%','90%']}
+              direction={{ base: 'column', sm: 'row-reverse' }}
+              overflow="hidden"
+              variant="filled"
+              marginTop={'10'}
+            >
+              <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src="https://www.jecrcmun.in/images/Munshi.jpeg"
+                alt="Caffe Latte"
+              />
+
+              <Stack>
+                <CardBody p={['15px','50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                    Dr. Munish Jindal
+                  </Heading>
+                  <Text size="md" fontStyle={'italic'}>
+                    Founder & CEO HoverRobotixe
+                  </Text>
+
+                  <Text py="2" fontSize={['15px','18px']}>
+                    Dr. Munish Jindal is the Founder & CEO of HoverRobotix and
+                    the Founding President of MENTORx Global. He is awarded and
+                    honored with highest civilian honor “Karmaveer Chakra” by
+                    United Nations. He is the Noble Asian of the Year 2018 as
+                    well as the TEDx Speaker. He is the man who followed his
+                    dreams. He is MBA, CPA from Australia. He holds Ph.D in
+                    Robotics & Artificial Intelligence from USA. He came back to
+                    India making it big for himself and his fellow citizen. He
+                    is into suitcase living, keep on traveling all the time and
+                    living with the philosophy of making others rise. Dr. Jindal
+                    has penned down 12 books, has 6 patents in his name in
+                    India, Australia and Germany. He is the one who launched the
+                    concept of Hoverboards, autobots & Mobility Robots in India.
+                    He initiated the ideas of “Education, Empower, Elevate” in
+                    India with MENTORx. He is the one who believes in making
+                    others rise.
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            <Button
+              variant={'solid'}
+              colorScheme="green"
+              size={'lg'}
+              color="white"
+              marginTop={'20'}
+              marginBottom={'20'}
+            >
+              View More
+            </Button>
           </Container>
         </Container>
       </Box>
