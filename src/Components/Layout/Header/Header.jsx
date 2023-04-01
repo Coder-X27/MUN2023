@@ -113,7 +113,7 @@ const Header = () => {
                   Sponsers
                 </Button>
               </Link>
-              <Link onClick={onClose} to="/contact">
+              <Link onClick={onClose} to="/Contact">
                 <Button
                   variant="ghost"
                   leftIcon={<GiSmartphone fontSize="18px" />}

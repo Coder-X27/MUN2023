@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import Footer from './Components/Layout/Footer/Footer';
 import Header from './Components/Layout/Header/Header';
 import Registration from './Components/Registration';
+import Contact from './Components/Contact';
 function App() {
   window.addEventListener('contextmenu',e=>{
     e.preventDefault();
@@ -22,7 +23,7 @@ function App() {
       <Route element={<Agendas/>} exact path='/agenda'/>
       <Route element={<ZeroHourSummit/>} exact path='/gallery'/>
       <Route element={<ZeroHourSummit/>} exact path='/sponsers'/>
-      <Route element={<ZeroHourSummit/>} exact path='/contact'/>
+      <Route element={<Contact/>} exact path='/Contact'/>
       <Route element={<ZeroHourSummit/>} exact path='/team'/>
     </Routes>
     <Footer/>
