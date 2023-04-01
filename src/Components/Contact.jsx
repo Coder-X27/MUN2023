@@ -9,7 +9,7 @@ function Contact() {
     <SimpleGrid minChildWidth='320px' mb={["0","10"]} mt={10} spacing={["40px","0"]}>
     <Box>
       <Box maxW={["lg","md"]} mx="auto" mt={['10','0']}>
-        <Card p={6} bg="white" boxShadow="md" borderRadius="md">
+        <Card p={6} bg="white" boxShadow="0px 0px 12px rgba(0, 0, 0, 0.6)" borderRadius="md">
     
       <FormControl id="name" mb={4} isRequired>
         <FormLabel>Name</FormLabel>
@@ -50,9 +50,11 @@ function Contact() {
     </Box>
     <Box
     ml={["5%","0%"]}
+    mr={["0%","5%"]}
     marginTop={["0","20"]}
     height={["400px","80%"]}
     className="map"
+    
     >
             <iframe
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.825855186854!2d75.81833451496024!3d26.7818204831841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc977c6898ab9%3A0x8010b7bf0b1f29c9!2sJECRC%20Foundation!5e0!3m2!1sen!2sin!4v1579948771763!5m2!1sen!2sin'
@@ -61,6 +63,7 @@ function Contact() {
                 className="Map"
                 height={["90%","85%"]}
                 width={["95%","80%"]}
+                
                 
             ></iframe>
     </Box>
