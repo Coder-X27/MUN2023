@@ -1,19 +1,18 @@
 import {
+  Avatar,
   Box,
   Button,
   Card,
   CardBody,
+  CardFooter,
   CardHeader,
   Container,
+  Flex,
   Heading,
+  IconButton,
   Image,
   SimpleGrid,
   Stack,
-  Tab,
-  TabList,
-  TabPanel,
-  TabPanels,
-  Tabs,
   Text,
   VStack,
 } from '@chakra-ui/react';
@@ -31,6 +30,8 @@ import {
   FaRegCalendarCheck,
   FaRegShareSquare,
 } from 'react-icons/fa';
+import { BsThreeDotsVertical } from 'react-icons/bs';
+import { BiLike, BiChat, BiShare } from 'react-icons/bi';
 const Home = () => {
   return (
     <>
@@ -246,7 +247,12 @@ const Home = () => {
             justifyContent="center"
             alignItems={'center'}
           >
-            <Heading color={'white'} fontSize={['22px','35px']} fontWeight="semibold" marginTop={'20'}>
+            <Heading
+              color={'white'}
+              fontSize={['22px', '35px']}
+              fontWeight="semibold"
+              marginTop={'20'}
+            >
               JECRC MUN EXCELLENCIES
             </Heading>
             <SimpleGrid
@@ -261,7 +267,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={['50px','100px']}>
+                  <Heading fontSize={['50px', '100px']}>
                     <FaBookReader color="green" />
                   </Heading>
                   <Heading
@@ -279,7 +285,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize={['15px',"17px"]}
+                    fontSize={['15px', '17px']}
                   >
                     JECRC MUN is an ideal place to hone your public speaking,
                     writing and analytical skills. All writing piece will
@@ -297,7 +303,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={['50px','100px']}>
+                  <Heading fontSize={['50px', '100px']}>
                     <FaConnectdevelop color="green" />
                   </Heading>
                   <Heading
@@ -315,7 +321,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize={['15px',"17px"]}
+                    fontSize={['15px', '17px']}
                   >
                     JECRC MUN will provide you with an opportunity to meet many
                     talented people throughout the country, discover new
@@ -333,7 +339,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={['50px','100px']}>
+                  <Heading fontSize={['50px', '100px']}>
                     <FaRegShareSquare color="green" />
                   </Heading>
                   <Heading
@@ -351,7 +357,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize={['15px',"17px"]}
+                    fontSize={['15px', '17px']}
                   >
                     Model UN is a great educational tool that provides extremely
                     valuable benefits to students. At JECRC MUN, students learn
@@ -383,7 +389,12 @@ const Home = () => {
             justifyContent="center"
             alignItems={'center'}
           >
-            <Heading color={'white'} fontWeight="semibold" fontSize={['22px','35px']} marginTop={'20'}>
+            <Heading
+              color={'white'}
+              fontWeight="semibold"
+              fontSize={['22px', '35px']}
+              marginTop={'20'}
+            >
               Become Campus Ambassador
             </Heading>
             <SimpleGrid
@@ -399,7 +410,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={['50px','100px']}>
+                  <Heading fontSize={['50px', '100px']}>
                     <FaRegCalendarCheck color="green" />
                   </Heading>
                   <Heading
@@ -417,7 +428,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize={['15px',"17px"]}
+                    fontSize={['15px', '17px']}
                   >
                     Campus Ambassadors of JECRC MUN are entitled to additional
                     benefits in form of concessions and discounts. This is an
@@ -434,7 +445,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={['50px','100px']}>
+                  <Heading fontSize={['50px', '100px']}>
                     <FaCreativeCommonsBy color="green" />
                   </Heading>
                   <Heading
@@ -452,7 +463,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize={['15px',"17px"]}
+                    fontSize={['15px', '17px']}
                   >
                     As a campus ambassador you get to enhance your network
                     within your campus with the prestigious tag of JECRC MUN.
@@ -468,7 +479,7 @@ const Home = () => {
                   justifyContent="center"
                   alignItems={'center'}
                 >
-                  <Heading fontSize={['50px','100px']}>
+                  <Heading fontSize={['50px', '100px']}>
                     <FaAngellist color="green" />
                   </Heading>
                   <Heading
@@ -486,7 +497,7 @@ const Home = () => {
                   <Text
                     letterSpacing={'1px'}
                     fontWeight={'medium'}
-                    fontSize={['15px',"17px"]}
+                    fontSize={['15px', '17px']}
                   >
                     The merits of being a Campus Ambassador don't end with the
                     conference, but stay with you thereafter. A certificate
@@ -501,7 +512,7 @@ const Home = () => {
         </Container>
       </Box>
       {/* COMMITIES  */}
-      <Box width={'100%'} backgroundColor="whatsapp.50" minHeight={'100vh'}>
+      <Box width={'100%'} backgroundColor="red.50" minHeight={'100vh'}>
         <Container
           minWidth={'85%'}
           minHeight="100vh"
@@ -515,7 +526,8 @@ const Home = () => {
         </Container>
       </Box>
       {/* REGISTRATION  */}
-      <Box width={'100%'} backgroundColor="whatsapp.100" minHeight={'100vh'}>
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'}>
+        
         <Container
           minWidth={'85%'}
           minHeight="100vh"
@@ -524,29 +536,185 @@ const Home = () => {
           justifyContent="center"
           alignItems={'center'}
         >
-          <Heading>Registrations</Heading>
-          {/* <Heading>Opening Soon....</Heading> */}
-          <Tabs isFitted variant="enclosed">
-            <TabList mb="1em">
-              <Tab colorScheme="green">
-                <Heading>One</Heading>
-              </Tab>
-              <Tab colorScheme="green">
-                <Heading>Two</Heading>
-              </Tab>
-              <Tab colorScheme="green">
-                <Heading>three</Heading>
-              </Tab>
-              <Tab colorScheme="green">
-                <Heading>four</Heading>
-              </Tab>
-            </TabList>
-            <TabPanels>
-              <TabPanel>
-                <p>one!</p>
-              </TabPanel>
-            </TabPanels>
-          </Tabs>
+        <Heading
+          textAlign={'center'}
+          color="black"
+          marginBottom={'50px'}
+          letterSpacing="4px"
+        >
+          TESTIMONIALS
+        </Heading>
+          <SimpleGrid
+            spacing={4}
+            templateColumns="repeat(auto-fill, minmax(400px, 1fr))"
+          >
+            <Card size="sm">
+              <CardHeader>
+                <Flex spacing="4">
+                  <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
+                    <Avatar
+                      name="Segun Adebayo"
+                      src="https://bit.ly/sage-adebayo"
+                      size={'xl'}
+                    />
+                    <Box>
+                      <Heading size="sm">Segun Adebayo</Heading>
+                      <Text>Creator, Chakra UI</Text>
+                    </Box>
+                  </Flex>
+                  <IconButton
+                    variant="ghost"
+                    colorScheme="gray"
+                    aria-label="See menu"
+                    icon={<BsThreeDotsVertical />}
+                  />
+                </Flex>
+              </CardHeader>
+              <CardBody>
+                <Text>
+                  With Chakra UI, I wanted to sync the speed of development with
+                  the speed of design. I wanted the developer to be just as
+                  excited as the designer to create a screen.
+                </Text>
+              </CardBody>
+              <Image
+                objectFit="cover"
+                src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                alt="Chakra UI"
+              />
+
+              <CardFooter
+                justify="space-between"
+                flexWrap="wrap"
+                sx={{
+                  '& > button': {
+                    minW: '136px',
+                  },
+                }}
+              >
+                <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
+                  Like
+                </Button>
+                <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
+                  Comment
+                </Button>
+                <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
+                  Share
+                </Button>
+              </CardFooter>
+            </Card>
+            <Card size="sm">
+              <CardHeader>
+                <Flex spacing="4">
+                  <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
+                    <Avatar
+                      name="Segun Adebayo"
+                      src="https://bit.ly/sage-adebayo"
+                      size={'xl'}
+                    />
+                    <Box>
+                      <Heading size="sm">Segun Adebayo</Heading>
+                      <Text>Creator, Chakra UI</Text>
+                    </Box>
+                  </Flex>
+                  <IconButton
+                    variant="ghost"
+                    colorScheme="gray"
+                    aria-label="See menu"
+                    icon={<BsThreeDotsVertical />}
+                  />
+                </Flex>
+              </CardHeader>
+              <CardBody>
+                <Text>
+                  With Chakra UI, I wanted to sync the speed of development with
+                  the speed of design. I wanted the developer to be just as
+                  excited as the designer to create a screen.
+                </Text>
+              </CardBody>
+              <Image
+                objectFit="cover"
+                src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                alt="Chakra UI"
+              />
+
+              <CardFooter
+                justify="space-between"
+                flexWrap="wrap"
+                sx={{
+                  '& > button': {
+                    minW: '136px',
+                  },
+                }}
+              >
+                <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
+                  Like
+                </Button>
+                <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
+                  Comment
+                </Button>
+                <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
+                  Share
+                </Button>
+              </CardFooter>
+            </Card>
+            <Card size="sm">
+              <CardHeader>
+                <Flex spacing="4">
+                  <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
+                    <Avatar
+                      name="Segun Adebayo"
+                      src="https://bit.ly/sage-adebayo"
+                      size={'xl'}
+                    />
+                    <Box>
+                      <Heading size="sm">Segun Adebayo</Heading>
+                      <Text>Creator, Chakra UI</Text>
+                    </Box>
+                  </Flex>
+                  <IconButton
+                    variant="ghost"
+                    colorScheme="gray"
+                    aria-label="See menu"
+                    icon={<BsThreeDotsVertical />}
+                  />
+                </Flex>
+              </CardHeader>
+              <CardBody>
+                <Text>
+                  With Chakra UI, I wanted to sync the speed of development with
+                  the speed of design. I wanted the developer to be just as
+                  excited as the designer to create a screen.
+                </Text>
+              </CardBody>
+              <Image
+                objectFit="cover"
+                src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                alt="Chakra UI"
+              />
+
+              <CardFooter
+                justify="space-between"
+                flexWrap="wrap"
+                sx={{
+                  '& > button': {
+                    minW: '136px',
+                  },
+                }}
+              >
+                <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
+                  Like
+                </Button>
+                <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
+                  Comment
+                </Button>
+                <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
+                  Share
+                </Button>
+              </CardFooter>
+            </Card>
+            
+          </SimpleGrid>
         </Container>
       </Box>
       {/* CHIEF GUESTS  */}
@@ -572,7 +740,7 @@ const Home = () => {
               CHIEF GUESTS
             </Heading>
             <Card
-              width={['100%','90%']}
+              width={['100%', '90%']}
               direction={{ base: 'column', sm: 'row' }}
               overflow="hidden"
               variant="filled"
@@ -587,7 +755,7 @@ const Home = () => {
               />
 
               <Stack>
-                <CardBody p={['15px','50px']}>
+                <CardBody p={['15px', '50px']}>
                   <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
                     Satish C. Mehta
                   </Heading>
@@ -595,7 +763,7 @@ const Home = () => {
                     Former Indian Ambassador to Kuwait
                   </Text>
 
-                  <Text py="2" fontSize={['15px','18px']}>
+                  <Text py="2" fontSize={['15px', '18px']}>
                     Ambassador Satish C. Mehta joined the Indian Foreign Service
                     in 1983 and retired as Director General, Indian Council for
                     Cultural Relations (ICCR) in September, 2015. Earlier, after
@@ -618,7 +786,7 @@ const Home = () => {
               </Stack>
             </Card>
             <Card
-              width={['100%','90%']}
+              width={['100%', '90%']}
               direction={{ base: 'column', sm: 'row-reverse' }}
               overflow="hidden"
               variant="filled"
@@ -632,7 +800,7 @@ const Home = () => {
               />
 
               <Stack>
-                <CardBody p={['15px','50px']}>
+                <CardBody p={['15px', '50px']}>
                   <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
                     Dr. Munish Jindal
                   </Heading>
@@ -640,7 +808,7 @@ const Home = () => {
                     Founder & CEO HoverRobotixe
                   </Text>
 
-                  <Text py="2" fontSize={['15px','18px']}>
+                  <Text py="2" fontSize={['15px', '18px']}>
                     Dr. Munish Jindal is the Founder & CEO of HoverRobotix and
                     the Founding President of MENTORx Global. He is awarded and
                     honored with highest civilian honor “Karmaveer Chakra” by

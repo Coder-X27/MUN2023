@@ -7,8 +7,6 @@ import {
   Card,
   CardBody,
 } from '@chakra-ui/react';
-// import './MUNConference.css'
-import bg from '../../Assets/Logos/bg2.jpg';
 import AboutBanner from './AboutBanner';
 
 const MunConference = () => {

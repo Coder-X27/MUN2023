@@ -7,8 +7,6 @@ import {
   Card,
   CardBody,
 } from '@chakra-ui/react';
-// import './MUNConference.css'
-import bg from '../../Assets/Logos/bg2.jpg';
 import AboutBanner from './AboutBanner';
 
 const MunConference = () => {
@@ -16,13 +14,6 @@ const MunConference = () => {
     <>
       <AboutBanner munheading={"ABOUT US"}/>
       <Box
-
-        // backgroundAttachment={'fixed'}
-        // backgroundColor="blackAlpha.600"
-        // backgroundImage={bg}
-        // backgroundPosition="center"
-        // backgroundRepeat={'no-repeat'}
-        // backgroundSize="cover"
       >
         <Container background={'green.50'} minWidth="100%">
           <Container
