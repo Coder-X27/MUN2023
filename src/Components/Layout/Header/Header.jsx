@@ -70,18 +70,26 @@ const Header = () => {
                 </MenuButton>
                 <MenuList>
                   <MenuItem>
+<<<<<<< HEAD
                     <Link onClick={onClose} to="/MUNConference">
+=======
+                    <Link onClick={onClose} to="/munconference">
+>>>>>>> master
                       <Button variant="ghost">MUN Conference</Button>
                     </Link>
                   </MenuItem>
                   <MenuItem>
+<<<<<<< HEAD
                     <Link onClick={onClose} to="/ZeroHourSummit">
+=======
+                    <Link onClick={onClose} to="/zerohoursummit">
+>>>>>>> master
                       <Button variant="ghost">Zero Hour Summit</Button>
                     </Link>
                   </MenuItem>
                 </MenuList>
               </Menu>
-              <Link onClick={onClose} to="/request">
+              <Link onClick={onClose} to="/register">
                 <Button
                   variant="ghost"
                   leftIcon={<RiRegisteredLine fontSize="18px" />}
@@ -89,7 +97,7 @@ const Header = () => {
                   Registrations
                 </Button>
               </Link>
-              <Link onClick={onClose} to="/contact">
+              <Link onClick={onClose} to="/agenda">
                 <Button
                   variant="ghost"
                   leftIcon={<BsCardChecklist fontSize="18px" />}
@@ -97,7 +105,11 @@ const Header = () => {
                   Agendas
                 </Button>
               </Link>
+<<<<<<< HEAD
               <Link onClick={onClose} to="/Gallery">
+=======
+              <Link onClick={onClose} to="/gallery">
+>>>>>>> master
                 <Button
                   variant="ghost"
                   leftIcon={<GrGallery fontSize="18px" />}
@@ -105,7 +117,7 @@ const Header = () => {
                   Gallery
                 </Button>
               </Link>
-              <Link onClick={onClose} to="/about">
+              <Link onClick={onClose} to="/sponsers">
                 <Button
                   variant="ghost"
                   leftIcon={<FaRegHandshake fontSize="18px" />}
@@ -113,7 +125,7 @@ const Header = () => {
                   Sponsers
                 </Button>
               </Link>
-              <Link onClick={onClose} to="/about">
+              <Link onClick={onClose} to="/Contact">
                 <Button
                   variant="ghost"
                   leftIcon={<GiSmartphone fontSize="18px" />}
@@ -121,7 +133,7 @@ const Header = () => {
                   Contact Us
                 </Button>
               </Link>
-              <Link onClick={onClose} to="/about">
+              <Link onClick={onClose} to="/team">
                 <Button
                   variant="ghost"
                   leftIcon={<RiTeamLine fontSize={'18px'} />}
