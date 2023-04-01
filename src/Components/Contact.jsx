@@ -11,29 +11,29 @@ function Contact() {
       <Box maxW={["lg","md"]} mx="auto" mt={['10','0']}>
         <Card p={6} bg="white" boxShadow="md" borderRadius="md">
     
-      <FormControl id="name" mb={4}>
+      <FormControl id="name" mb={4} isRequired>
         <FormLabel>Name</FormLabel>
-        <Input type="text" placeholder="Enter your name" required />
+        <Input type="text" placeholder="Enter your name"  />
       </FormControl>
 
-      <FormControl id="email" mb={4}>
+      <FormControl id="email" mb={4} isRequired>
         <FormLabel>Email address</FormLabel>
-        <Input type="email" placeholder="Enter your email" required />
+        <Input type="email" placeholder="Enter your email"  />
       </FormControl>
 
-      <FormControl id="mobile" mb={4}>
+      <FormControl id="mobile" mb={4} isRequired>
         <FormLabel>Mobile No</FormLabel>
-        <Input type="tel" placeholder="Enter your mobile number" required />
+        <Input type="tel" placeholder="Enter your mobile number"  />
       </FormControl>
 
-      <FormControl id="institution" mb={4}>
+      <FormControl id="institution" mb={4} isRequired>
         <FormLabel>Institution</FormLabel>
-        <Input type="text" placeholder="Enter your institution name" required/>
+        <Input type="text" placeholder="Enter your institution name" />
       </FormControl>
 
-      <FormControl id="message" mb={6}>
+      <FormControl id="message" mb={6} isRequired>
         <FormLabel>Message</FormLabel>
-        <Textarea placeholder="Enter your message" required/>
+        <Textarea placeholder="Enter your message" />
       </FormControl>
 
       <Button
