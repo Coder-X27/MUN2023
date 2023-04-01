@@ -70,12 +70,12 @@ const Header = () => {
                 </MenuButton>
                 <MenuList>
                   <MenuItem>
-                    <Link onClick={onClose} to="/request">
+                    <Link onClick={onClose} to="/MUNConference">
                       <Button variant="ghost">MUN Conference</Button>
                     </Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link onClick={onClose} to="/request">
+                    <Link onClick={onClose} to="/ZeroHourSummit">
                       <Button variant="ghost">Zero Hour Summit</Button>
                     </Link>
                   </MenuItem>
