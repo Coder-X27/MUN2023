@@ -54,9 +54,9 @@ function MUNConference() {
                   <CardBody>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       JECRC MUN is a ten years old legacy established in 2012,
                       making JECRC the first host of a MUN conference in Jaipur.
@@ -69,9 +69,9 @@ function MUNConference() {
                     </Text>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       Till the eighth edition, we have hosted approximately 2000+
                       delegates, including international delegates as well. To
@@ -87,9 +87,9 @@ function MUNConference() {
                     </Text>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       Every year our expanse of expertise has grown beyond the
                       previously achieved marks, as we continue to set new
@@ -102,9 +102,9 @@ function MUNConference() {
                     </Text>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       We have created a promising platform for all the young
                       diplomats that seek experience and genuine input about their

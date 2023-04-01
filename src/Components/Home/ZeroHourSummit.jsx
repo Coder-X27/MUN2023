@@ -54,9 +54,9 @@ function ZeroHourSummit() {
                   <CardBody>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       The Zero Hour Summit aims to center the voices of our college youth in the conversation about national and 
                       international issues and environmental justice. We intend to develop a discussion platform for topics of public 
@@ -68,9 +68,9 @@ function ZeroHourSummit() {
                     </Text>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       Till the eighth edition, we have hosted approximately 2000+
                       delegates, including international delegates as well. To
@@ -86,9 +86,9 @@ function ZeroHourSummit() {
                     </Text>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       Every year our expanse of expertise has grown beyond the
                       previously achieved marks, as we continue to set new
@@ -101,9 +101,9 @@ function ZeroHourSummit() {
                     </Text>
                     <Text
                       className="about_text"
-                      letterSpacing={'1px'}
+                      letterSpacing={['0px','1px']}
                       fontWeight={'medium'}
-                      fontSize="20px"
+                      fontSize={["17px","20px"]}
                     >
                       We have created a promising platform for all the young
                       diplomats that seek experience and genuine input about their

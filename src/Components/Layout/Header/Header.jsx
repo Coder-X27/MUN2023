@@ -97,7 +97,7 @@ const Header = () => {
                   Agendas
                 </Button>
               </Link>
-              <Link onClick={onClose} to="/about">
+              <Link onClick={onClose} to="/Gallery">
                 <Button
                   variant="ghost"
                   leftIcon={<GrGallery fontSize="18px" />}
