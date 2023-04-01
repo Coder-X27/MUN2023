@@ -76,7 +76,7 @@ const Home = () => {
         </Container>
       </Box>
       {/* ABOUT SECTION  */}
-      <Box minHeight={'100vh'} bgColor="whatsapp.50">
+      <Box minHeight={'100vh'} bgColor="green.50">
         <Container
           minWidth={'85%'}
           minHeight="100vh"
