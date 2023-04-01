@@ -70,12 +70,20 @@ const Header = () => {
                 </MenuButton>
                 <MenuList>
                   <MenuItem>
+<<<<<<< HEAD
+                    <Link onClick={onClose} to="/MUNConference">
+=======
                     <Link onClick={onClose} to="/munconference">
+>>>>>>> master
                       <Button variant="ghost">MUN Conference</Button>
                     </Link>
                   </MenuItem>
                   <MenuItem>
+<<<<<<< HEAD
+                    <Link onClick={onClose} to="/ZeroHourSummit">
+=======
                     <Link onClick={onClose} to="/zerohoursummit">
+>>>>>>> master
                       <Button variant="ghost">Zero Hour Summit</Button>
                     </Link>
                   </MenuItem>
@@ -97,7 +105,11 @@ const Header = () => {
                   Agendas
                 </Button>
               </Link>
+<<<<<<< HEAD
+              <Link onClick={onClose} to="/Gallery">
+=======
               <Link onClick={onClose} to="/gallery">
+>>>>>>> master
                 <Button
                   variant="ghost"
                   leftIcon={<GrGallery fontSize="18px" />}
