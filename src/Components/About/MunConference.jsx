@@ -12,12 +12,11 @@ import AboutBanner from './AboutBanner';
 const MunConference = () => {
   return (
     <>
-      <AboutBanner munheading={"ABOUT US"}/>
-      <Box
-      >
+      <AboutBanner munheading={'ABOUT US'} />
+      <Box>
         <Container background={'green.50'} minWidth="100%">
           <Container
-            minWidth={'85%'}
+            minWidth={['100%','85%']}
             minHeight="80vh"
             display="flex"
             flexDir={'column'}
@@ -29,7 +28,7 @@ const MunConference = () => {
               width={['100%', '90%']}
             >
               <Card size={'lg'} marginTop="20" marginBottom={'20'}>
-                <CardBody paddingLeft={'20'} paddingRight={'20'}>
+                <CardBody paddingLeft={['5','20']} paddingRight={['5','20']}>
                   <Heading
                     className="about_heading"
                     color={'green.500'}
@@ -44,8 +43,8 @@ const MunConference = () => {
                   <Text
                     className="about_text"
                     letterSpacing={'1px'}
-                    fontWeight={'medium'}
-                    fontSize="17px"
+                    fontWeight={['normal','medium']}
+                    fontSize={['15px',"17px"]}
                   >
                     JECRC MUN is a ten years old legacy established in 2012,
                     making JECRC the first host of a MUN conference in Jaipur.
@@ -59,8 +58,8 @@ const MunConference = () => {
                   <Text
                     className="about_text"
                     letterSpacing={'1px'}
-                    fontWeight={'medium'}
-                    fontSize="17px"
+                    fontWeight={['normal','medium']}
+                    fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
                     Till the eighth edition, we have hosted approximately 2000+
@@ -78,8 +77,8 @@ const MunConference = () => {
                   <Text
                     className="about_text"
                     letterSpacing={'1px'}
-                    fontWeight={'medium'}
-                    fontSize="17px"
+                    fontWeight={['normal','medium']}
+                    fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
                     Every year our expanse of expertise has grown beyond the
@@ -96,8 +95,8 @@ const MunConference = () => {
                   <Text
                     className="about_text"
                     letterSpacing={'1px'}
-                    fontWeight={'medium'}
-                    fontSize="17px"
+                    fontWeight={['normal','medium']}
+                    fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
                     We have created a promising platform for all the young

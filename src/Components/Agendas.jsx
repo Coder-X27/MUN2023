@@ -19,7 +19,7 @@ const Agendas = () => {
           direction={{ base: 'column', sm: 'row' }}
           overflow="hidden"
           variant="outline"
-          width={'60%'}
+          width={['85%','60%']}
           marginBottom="20"
           marginTop="20"
         >
@@ -44,7 +44,7 @@ const Agendas = () => {
           direction={{ base: 'column', sm: 'row-reverse' }}
           overflow="hidden"
           variant="outline"
-          width={'60%'}
+          width={['85%','60%']}
           marginBottom="20"
         >
           <Image
@@ -68,7 +68,7 @@ const Agendas = () => {
           direction={{ base: 'column', sm: 'row' }}
           overflow="hidden"
           variant="outline"
-          width={'60%'}
+          width={['85%','60%']}
           marginBottom="20"
         >
           <Image
@@ -91,7 +91,7 @@ const Agendas = () => {
           direction={{ base: 'column', sm: 'row-reverse' }}
           overflow="hidden"
           variant="outline"
-          width={'60%'}
+          width={['85%','60%']}
           marginBottom="20"
         >
           <Image

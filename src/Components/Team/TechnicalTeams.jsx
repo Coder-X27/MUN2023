@@ -22,7 +22,7 @@ function TechnicalTeam() {
         <AboutBanner munheading={'TECHNICAL TEAM'} />
         <Container minWidth={'80%'}>
           <Grid
-            templateColumns="repeat(3, 1fr)"
+            templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]}
             gap={6}
             marginTop={'20'}
             marginBottom={'20'}

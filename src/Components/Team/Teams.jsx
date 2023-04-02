@@ -21,13 +21,13 @@ function Team() {
       <Box bg={'green.50'} minWidth={'100%'}>
         <AboutBanner munheading={'OUR TEAM'} />
         <Container minWidth={'80%'}>
-          <Grid templateColumns="repeat(3, 1fr)" gap={6} marginTop={'20'} marginBottom={'20'}>
+          <Grid templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]} gap={6} marginTop={'20'} marginBottom={'20'}>
             {members &&
               members.map(member => {
                 const { name, designation, image } = member;
                 return (
                   <GridItem key={image}>
-                    <Card  maxW="lg" boxShadow={'xl'}>
+                    <Card  size={['sm',"lg"]} boxShadow={'xl'}>
                       <CardBody>
                         <Image
                           src={image}

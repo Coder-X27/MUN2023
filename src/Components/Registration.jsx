@@ -27,7 +27,7 @@ const Registration = () => {
               spacing={4}
               templateColumns="repeat(auto-fill, minmax(250px, 1fr))"
             >
-              <Card size={'md'} variant="elevated" marginTop={'20'} marginBottom="20">
+              <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
                 <CardHeader>
                   <Heading size="md" textAlign={'center'} fontWeight="semibold"> Campus Ambassador</Heading>
                 </CardHeader>
@@ -38,10 +38,10 @@ const Registration = () => {
                   <Text textAlign={'center'} marginBottom="5">
                     Application Fees 2000/-
                   </Text>
-                  <Button colorScheme={'green'} variant="solid">Register Now !</Button>
+                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
                 </CardFooter>
               </Card>
-              <Card size={'md'} variant="elevated" marginTop={'20'} marginBottom="20">
+              <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
                 <CardHeader>
                   <Heading size="md" textAlign={'center'} fontWeight="semibold"> Delegate</Heading>
                 </CardHeader>
@@ -52,10 +52,10 @@ const Registration = () => {
                   <Text textAlign={'center'} marginBottom="5">
                     Application Fees 2000/-
                   </Text>
-                  <Button colorScheme={'green'} variant="solid">Register Now !</Button>
+                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
                 </CardFooter>
               </Card>
-              <Card size={'md'} variant="elevated" marginTop={'20'} marginBottom="20">
+              <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
                 <CardHeader>
                   <Heading size="md" textAlign={'center'} fontWeight="semibold"> Executive Board</Heading>
                 </CardHeader>
@@ -66,10 +66,10 @@ const Registration = () => {
                   <Text textAlign={'center'} marginBottom="5">
                     Application Fees 2000/-
                   </Text>
-                  <Button colorScheme={'green'} variant="solid">Register Now !</Button>
+                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
                 </CardFooter>
               </Card>
-              <Card size={'md'} variant="elevated" marginTop={'20'} marginBottom="20">
+              <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
                 <CardHeader>
                   <Heading size="md" textAlign={'center'} fontWeight="semibold"> International Press</Heading>
                 </CardHeader>
@@ -80,7 +80,7 @@ const Registration = () => {
                   <Text textAlign={'center'} marginBottom="5">
                     Application Fees 2000/-
                   </Text>
-                  <Button colorScheme={'green'} variant="solid">Register Now !</Button>
+                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
                 </CardFooter>
               </Card>
               
