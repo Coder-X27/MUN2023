@@ -17,7 +17,7 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import logo from '../../Assets/Logos/mun2023.png';
-import bg from '../../Assets/Logos/bg2.jpg';
+import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpeg';
 import unsc from '../../Assets/images/UNSClogo.png';
 import './Home.css';
