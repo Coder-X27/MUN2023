@@ -20,6 +20,12 @@ import logo from '../../Assets/Logos/mun2023.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpeg';
 import unsc from '../../Assets/images/UNSClogo.png';
+import unscpic from '../../Assets/Logos/unsc.webp';
+import aippm from'../../Assets/Logos/aippm.webp';
+import ecofin from'../../Assets/Logos/ecofin.webp';
+import ip_logo from '../../Assets/Logos/ip-logo.webp';
+import unhrc from '../../Assets/Logos/UNHRC.webp';
+import unga from '../../Assets/Logos/UNHRC.webp';
 import './Home.css';
 import {
   FaAngellist,
@@ -513,21 +519,192 @@ const Home = () => {
         </Container>
       </Box>
       {/* COMMITIES  */}
-      <Box width={'100%'} backgroundColor="red.50" minHeight={'100vh'}>
-        <Container
-          minWidth={'85%'}
-          minHeight="100vh"
-          display="flex"
-          flexDir={'column'}
-          justifyContent="center"
-          alignItems={'center'}
-        >
-          <Heading>Committes</Heading>
-          <Heading>To be Announced....</Heading>
-        </Container>
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'}>
+          <Container
+            minWidth={'85%'}
+            minHeight="80vh"
+            display="flex"
+            flexDir={'column'}
+            justifyContent="center"
+            alignItems={'center'}
+          >
+            <Heading color={'green.500'} letterSpacing="2px" marginTop={'20'}>
+              {' '}
+              COMMITTEE
+            </Heading>
+            <Card
+              width={['100%', '90%']}
+              direction={{ base: 'column', sm: 'row' }}
+              overflow="hidden"
+              variant="filled"
+              colorScheme={'green'}
+              marginTop={'10'}
+            >
+             <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src={unscpic}
+                alt="Caffe Latte"
+              /> 
+
+              <Stack>
+                <CardBody p={['15px', '50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  United Nations Security Council (UNSC)
+                  </Heading>
+
+                  <Text py="2" fontSize={['15px', '20px']}>
+                    Urgent discussions on gun control, and enforcement of measures intended to restrict the possession and the use of 
+                    firearms.
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            <Card
+              width={['100%', '90%']}
+              direction={{ base: 'column', sm: 'row-reverse' }}
+              overflow="hidden"
+              variant="filled"
+              marginTop={'10'}
+            >
+             <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src={aippm}
+                alt="Caffe Latte"
+              /> 
+              
+
+              <Stack>
+                <CardBody p={['15px', '50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  All India Political Parties Meet (AIPPM)
+                  </Heading>
+                  
+
+                  <Text py="2" fontSize={['15px', '20px']}>
+                  Deliberation on Union Budget, 2023 with special emphasis on unemployment and agriculture.
+
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            <Card
+              width={['100%', '90%']}
+              direction={{ base: 'column', sm: 'row' }}
+              overflow="hidden"
+              variant="filled"
+              marginTop={'10'}
+            >
+              <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src={unhrc}
+                alt="Caffe Latte"
+              />
+
+              <Stack>
+                <CardBody p={['15px', '50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  United Nations Human Rights Council (UNHRC):
+                  </Heading>
+                  
+
+                  <Text py="2" fontSize={['15px', '20px']}>
+                  Protecting victims of human trafficking in conflict and post-conflict situations. (Special emphasis on women and children)
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            <Card
+              width={['100%', '90%']}
+              direction={{ base: 'column', sm: 'row-reverse' }}
+              overflow="hidden"
+              variant="filled"
+              marginTop={'10'}
+            >
+              <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src={ecofin}
+                alt="Caffe Latte"
+              />
+
+              <Stack>
+                <CardBody p={['15px', '50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  Economic and Financial Affairs Council (ECOFIN)
+                  </Heading>
+                  
+
+                  <Text py="2" fontSize={['15px', '20px']}>
+                  Discussion on the international banking crisis and its impact.
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            <Card
+              width={['100%', '90%']}
+              direction={{ base: 'column', sm: 'row' }}
+              overflow="hidden"
+              variant="filled"
+              marginTop={'10'}
+            >
+              <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src={unga}
+                alt="Caffe Latte"
+              />
+
+              <Stack>
+                <CardBody p={['15px', '50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  Social, Humanitarian, and Cultural Committee (UNGA-SOCHUM)
+                  </Heading>
+                  
+
+                  <Text py="2" fontSize={['15px', '20px']}>
+                  Addressing all forms of discrimination against people belonging to marginalized sexual orientations & gender identities.
+
+
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            <Card
+              width={['100%', '90%']}
+              direction={{ base: 'column', sm: 'row-reverse' }}
+              overflow="hidden"
+              variant="filled"
+              marginTop={'10'}
+            >
+              <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src={ip_logo}
+                alt="Caffe Latte"
+              />
+
+              <Stack>
+                <CardBody p={['15px', '50px']}>
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  International Press (IP): 
+
+                  </Heading>
+                  
+
+                  <Text py="2" fontSize={['15px', '20px']}>
+                  Reporter | Photographer | Caricaturist
+
+                  </Text>
+                </CardBody>
+              </Stack>
+            </Card>
+            </Container>
       </Box>
       {/* TESTIMONIALS  */}
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'}>
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pt={5}>
         <Container
           maxWidth={['100%','85%']}
           minHeight="100vh"
