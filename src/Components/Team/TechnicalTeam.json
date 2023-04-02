@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Khushi Garg",
+        "designation": "USG Technical",
+        "image": "./TeamImages/khushig.jpg",
+        "linkedin":"google.com",
+        "github":"google.com"
+      },
+      {
+        "name": "Karan Sharma",
+        "designation": "USG Technical",
+        "image": "./TeamImages/karans.jpg",
+        "linkedin":"google.com",
+        "github":"google.com"
+      },
+      {
+        "name": "Yash Rajarora",
+        "designation": "USG Technical",
+        "image": "./TeamImages/yashraj.jpeg",
+        "linkedin":"google.com",
+        "github":"google.com"
+      }
+]

@@ -32,6 +32,7 @@ import {
 } from 'react-icons/fa';
 import { BsThreeDotsVertical } from 'react-icons/bs';
 import { BiLike, BiChat, BiShare } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
@@ -63,17 +64,19 @@ const Home = () => {
           <Heading color={'green.500'} fontSize={['3xl', '6xl']}>
             Awaken the Leader in you
           </Heading>
-          <Button
-            variant={'outline'}
-            size="lg"
-            border="2px solid white"
-            fontWeight="medium"
-            color="green.300"
-            marginTop={'10'}
-            p="7"
-          >
-            <Heading fontSize={['2xl', '3xl']}>Register Now !</Heading>
-          </Button>
+          <Link to="/register">
+            <Button
+              variant={'outline'}
+              size="lg"
+              border="2px solid white"
+              fontWeight="medium"
+              color="green.300"
+              marginTop={'10'}
+              p="7"
+            >
+              <Heading fontSize={['2xl', '3xl']}>Register Now !</Heading>
+            </Button>
+          </Link>
         </Container>
       </Box>
       {/* ABOUT SECTION  */}
@@ -525,9 +528,8 @@ const Home = () => {
           <Heading>To be Announced....</Heading>
         </Container>
       </Box>
-      {/* REGISTRATION  */}
+      {/* TESTIMONIALS  */}
       <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'}>
-        
         <Container
           minWidth={'85%'}
           minHeight="100vh"
@@ -536,14 +538,14 @@ const Home = () => {
           justifyContent="center"
           alignItems={'center'}
         >
-        <Heading
-          textAlign={'center'}
-          color="black"
-          marginBottom={'50px'}
-          letterSpacing="4px"
-        >
-          TESTIMONIALS
-        </Heading>
+          <Heading
+            textAlign={'center'}
+            color="black"
+            marginBottom={'50px'}
+            letterSpacing="4px"
+          >
+            TESTIMONIALS
+          </Heading>
           <SimpleGrid
             spacing={4}
             templateColumns="repeat(auto-fill, minmax(400px, 1fr))"
@@ -713,7 +715,6 @@ const Home = () => {
                 </Button>
               </CardFooter>
             </Card>
-            
           </SimpleGrid>
         </Container>
       </Box>

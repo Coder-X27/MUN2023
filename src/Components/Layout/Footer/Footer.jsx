@@ -5,7 +5,6 @@ import {
   Heading,
   HStack,
   Image,
-  Link,
   Text,
   VStack,
   Wrap,
@@ -13,6 +12,7 @@ import {
 import React from 'react';
 import image from '../../../Assets/Logos/mun2023.png';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -98,7 +98,7 @@ const Footer = () => {
               This site is maintained and developed by  {' '} 
             </Text>
             <Text color={'green.500'} fontSize={['13px','18px']}>
-              <Link href="/"> - JECRC Techincal Team</Link>
+              <Link to="/technicalteam"> - JECRC Techincal Team</Link>
             </Text>
           </Box>
           <Wrap >
