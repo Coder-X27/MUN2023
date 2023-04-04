@@ -14,6 +14,7 @@ import {
   Stack,
   Text,
   VStack,
+  useDisclosure
 } from '@chakra-ui/react';
 import React from 'react';
 import logo from '../../Assets/Logos/mun2023.png';
@@ -38,6 +39,7 @@ import {
 import { BsThreeDotsVertical } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 const Home = () => {
+  const { onClose } = useDisclosure();
   return (
     <>
       {/* HOME PAGE  */}
@@ -133,9 +135,15 @@ const Home = () => {
                 have gained a lot of momentum inviting immense participation
                 from across the country.
               </Text>
-              <Button variant={'solid'} colorScheme="green" size={['md', 'lg']}>
+              <Link onClick={onClose} to="/munconference">
+              <Button 
+              variant={'solid'} 
+              colorScheme="green" 
+              size={['md', 'lg']}
+              >
                 Read More
               </Button>
+              </Link>
             </VStack>
             <VStack alignItems={['center', 'flex-end']} width={['100%', '50%']}>
               <Image width={['85%', '60%']} src={intro} />
@@ -223,9 +231,11 @@ const Home = () => {
                 skills, and the ability to have a sound opinion about matters of
                 interest.
               </Text>
+              <Link onClick={onClose} to="/zerohoursummit">
               <Button variant={'solid'} colorScheme="green" size={['md', 'lg']}>
                 Read More
               </Button>
+              </Link>
             </VStack>
             <VStack
               alignItems={['center', 'flex-start']}
