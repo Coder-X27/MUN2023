@@ -1,185 +1,193 @@
 [
     {
-      "name": "Shrey Bhargava",
+      "name": "Pratham Kabra ",
       "designation": "Secretary General",
-      "image": "./TeamImages/shrey.jpg"
-    },
-    {
-      "name": "Sarthak Agrawal",
-      "designation": "Deputy Secretary General",
-      "image": "./TeamImages/sarthak.jpg"
-    },
-    {
-      "name": "Saloni Vyas",
-      "designation": "Director General",
-      "image": "./TeamImages/saloni.jpg"
-    },
-    {
-      "name": "Jaipal Prajapat",
-      "designation": "USG Outreach Head",
-      "image": "./TeamImages/jaipal.jpg"
-    },
-    {
-      "name": "Ayush Jain",
-      "designation": "USG Designing Head",
-      "image": "./TeamImages/ayush.jpg"
-    },
-    {
-      "name": "Pratham Kabra",
-      "designation": "USG Content Head",
-      "image": "./TeamImages/pratham.jpg"
-    },
-    {
-      "name": "Vrindaa Joshi",
-      "designation": "USG DA Head",
-      "image": "./TeamImages/vrinda.jpg"
+      "image": "./TeamImages/Pratham_Kabra_SG.jpg",
+      "linkedin":"http://linkedin.com/in/pratham-kabra-027b19192"
     },
     {
       "name": "Shyam Garg",
-      "designation": "USG Outreach Head",
-      "image": "./TeamImages/shyam.jpg"
+      "designation": "Deputy Secretary General",
+      "image": "./TeamImages/Shyam Garg_DSG.jpeg",
+      "linkedin":"https://www.linkedin.com/in/shyam-garg-8480581a2"
     },
     {
-      "name": "Shivanshu Goswami",
-      "designation": "USG Sponsorship",
-      "image": "./TeamImages/shivanshu.jpg"
-    },
-    {
-      "name": "Snehil Kumar",
-      "designation": "USG Sponsorship",
-      "image": "./TeamImages/snehil.jpg"
+      "name": "Ayush Jain",
+      "designation": "Director General",
+      "image": "./TeamImages/ayush.jpg",
+      "linkedin":"#"
     },
     {
       "name": "Divyesh Gupta",
-      "designation": "USG Cinematography Head",
-      "image": "./TeamImages/divyesh.jpg"
+      "designation": "Deputy Director General",
+      "image": "./TeamImages/divyesh.jpg",
+      "linkedin":"https://www.linkedin.com/in/divyesh16/"
+    },
+    {
+      "name": "Vrindaa Joshi",
+      "designation": "OC President",
+      "image": "./TeamImages/vrinda_dg.jpg",
+      "linkedin":"#"
     },
     {
       "name": "Khushi Garg",
-      "designation": "USG Technical",
-      "image": "./TeamImages/khushig.jpg"
+      "designation": "USG Technical Head",
+      "image": "./TeamImages/khushiGarg.jpg",
+      "linkedin":"https://www.linkedin.com/in/khushigarg123/"
     },
     {
       "name": "Karan Sharma",
-      "designation": "USG Technical",
-      "image": "./TeamImages/karans.jpg"
+      "designation": "USG Technical Head",
+      "image": "./TeamImages/KaranSharma_Technical.jpg",
+      "linkedin":"https://www.linkedin.com/in/karansh99"
     },
     {
-      "name": "Chintan Grover",
-      "designation": "USG Technical",
-      "image": "./TeamImages/chintan.jpg"
-    },
-    {
-      "name": "Yash Rajarora",
-      "designation": "USG Technical",
-      "image": "./TeamImages/yashraj.jpeg"
-    },
-    {
-      "name": "Ishaan Joshi",
-      "designation": "USG Digital Marketing",
-      "image": "./TeamImages/ishaan.jpg"
+      "name": "Aditya Panwar",
+      "designation": "USG Designing Head",
+      "image": "./TeamImages/Aditya panwar_GD.jpg",
+      "linkedin":"#"
     },
     {
       "name": "Abhijeet Sharma",
-      "designation": "USG Outreach ",
-      "image": "./TeamImages/abhijeet.jpg"
-    },
-    {
-      "name": "Opal Jain",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/opal.jpg"
-    },
-    {
-      "name": "Jerin Jacob",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/jerin.jpg"
+      "designation": "USG Logistics Head ",
+      "image": "./TeamImages/AbhijeetSharma.jpg",
+      "linkedin":"https://www.linkedin.com/in/abhijeetsharma1300/"
     },
     {
       "name": "Manshi Singh",
       "designation": "USG DA",
-      "image": "./TeamImages/manshi.jpg"
+      "image": "./TeamImages/Manshi Singh_Delegates Affairs.jpg",
+      "linkedin":"#"
     },
     {
-      "name": "Ayushi George",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/ayushi.jpg"
+      "name": "Khushi Khachra",
+      "designation": "USG Creation Head",
+      "image": "./TeamImages/Khushi Kachhara _Creation.jpg",
+      "linkedin":"https://www.linkedin.com/in/khushi-kachhara-65729b23b"
     },
     {
-      "name": "Jaiprakash",
-      "designation": "USG Cinematography",
-      "image": "./TeamImages/jaiprakash.jpg"
+      "name": "Jerin Jacob",
+      "designation": "USG Social Media Head",
+      "image": "./TeamImages/Jerin_SocialMedia.jpg",
+      "linkedin":"#"
     },
     {
-      "name": "Sapan Mittal",
-      "designation": "USG Content",
-      "image": "./TeamImages/sapan.jpg"
-    },
-    {
-      "name": "Poorvi Gupta",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/poorvi.jpg"
-    },
-    {
-      "name": "Avi Sharma",
-      "designation": "USG Content",
-      "image": "./TeamImages/avi.jpg"
-    },
-    {
-      "name": "Gaurav Jindal",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/gaurav.jpg"
-    },
-    {
-      "name": "Arshi Agarwal",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/arshi.jpg"
-    },
-    {
-      "name": "Aditya Panwar",
-      "designation": "USG Designing",
-      "image": "./TeamImages/adityap.jpg"
+      "name": "Chintan Grover",
+      "designation": "USG Technical",
+      "image": "./TeamImages/Chintan_Grover_SocialMedia.jpg",
+      "linkedin":"#"
     },
     
     {
-      "name": "Khushi Khachra",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/khushik.jpg"
+      "name": "Avi Sharma",
+      "designation": "USG Content Head",
+      "image": "./TeamImages/AviSharma_content .jpg",
+      "linkedin":"https://www.linkedin.com/in/avi-sharma-a50b13212/"
     },
     {
-      "name": "Priyanshu",
-      "designation": "USG DA",
-      "image": "./TeamImages/priyanshu.jpg"
+      "name": "Sapan Mittal",
+      "designation": "USG Collaboration Head",
+      "image": "./TeamImages/Sapan Mittal_Chief Guest & Collaboration Head (1).jpg",
+      "linkedin":"https://www.linkedin.com/in/sapan-mittal-8193361bb"
     },
     {
-      "name": "Khush Goyal",
-      "designation": "USG Designing",
-      "image": "./TeamImages/khush.jpg"
+      "name": "Ishaan Joshi",
+      "designation": "USG Sponsorship Head",
+      "image": "./TeamImages/IshaanJoshi.jpg",
+      "linkedin":"#"
     },
     {
-      "name": "Aditya Sharma",
+      "name": "Poorvi Gupta",
+      "designation": "USG Sponsorship Head",
+      "image": "./TeamImages/PoorviGupta.jpg",
+      "linkedin":"https://www.linkedin.com/in/poorvi-gupta-bb5aa7229"
+    },
+    {
+      "name": "Gaurav Jindal",
+      "designation": "USG Outreach Head",
+      "image": "./TeamImages/gaurav.jpg",
+      "linkedin":"http://www.linkedin.com/in/gaurav-jindal-674447200"
+    },
+    {
+      "name": "Opal Jain",
+      "designation": "USG Outreach Head",
+      "image": "./TeamImages/opal.jpg",
+      "linkedin":"#"
+    },
+    
+    {
+      "name": "Yash Rajarora",
+      "designation": "USG Technical",
+      "image": "./TeamImages/YashRajArora_tech.jpg",
+      "linkedin":"https://www.linkedin.com/in/yash-raj-arora-432728239/"
+    },
+    {
+      "name": "Tejasvi Ola",
       "designation": "USG Content",
-      "image": "./TeamImages/aditiyas.jpg"
-    },
-    {
-      "name": "Tanya Moolchandani",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/tanya.jpg"
-    },
-    {
-      "name": "Rani Lodha",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/rani.jpg"
-    },
-    {
-      "name": "Sarthak Jain",
-      "designation": "USG Digital Marketing",
-      "image": "./TeamImages/sarthakj.jpg"
+      "image": "./TeamImages/Tejasvi ola _content.jpg",
+      "linkedin":"https://www.linkedin.com/in/tejasvi-ola-40aa9a24b"
     },
     {
       "name": "Yash Soni",
       "designation": "USG Cinematography",
-      "image": "./TeamImages/yash.jpg"
+      "image": "./TeamImages/Yash soni_cinematography.png",
+      "linkedin":"https://www.linkedin.com/in/yashsoni08/"
+    },
+    {
+      "name": "Supriya Khandelwal",
+      "designation": "USG Outreach",
+      "image": "./TeamImages/Supriya Khandelwal_outreach_.jpg",
+      "linkedin":"https://www.linkedin.com/in/supriya-khandelwal-29123b226"
+    },
+    {
+      "name": "Khush Goyal",
+      "designation": "USG Designing",
+      "image": "./TeamImages/Khush Goyal _ GD .jpg",
+      "linkedin":"https://www.linkedin.com/in/khushgoyal17/"
+    },
+    {
+      "name": "Sidhi Jain",
+      "designation": "USG Designing",
+      "image": "./TeamImages/Siddhi Jain_GD.jpg",
+      "linkedin":"https://www.linkedin.com/in/siddhi-jain-77298b220"
+    },
+    {
+      "name": "Purvish Vyas",
+      "designation": "USG Cinematography",
+      "image": "./TeamImages/Purvish Vyas cinamatography_.jpg",
+      "linkedin":"https://www.linkedin.com/in/purvish-vyas-668126250"
+    },
+    {
+      "name": "Sarthak Jain",
+      "designation": "USG Digital Marketing",
+      "image": "./TeamImages/Sarthak jain_Digital Marketing_.jpg",
+      "linkedin":"https://www.linkedin.com/in/sarthak-jain-911817227"
+    },
+    {
+      "name": "Sanchali Khandelwal",
+      "designation": "USG DA",
+      "image": "./TeamImages/Sanchali Khandelwal_Deligate affairs_.jpg",
+      "linkedin":"https://www.linkedin.com/in/sanchali-khandelwal-a7736924a"
+    },
+    {
+      "name": "Saloni Jain",
+      "designation": "USG DA",
+      "image": "./TeamImages/Saloni Jain _ Delegates Affair.jpg",
+      "linkedin":"https://www.linkedin.com/in/sj28/"
+    },
+    {
+      "name": "Tanya Moolchandani",
+      "designation": "USG Sponsorship",
+      "image": "./TeamImages/Tanya Moolchandani _ Sponsorship_.jpg",
+      "linkedin":"https://www.linkedin.com/in/tanya-moolchandani-96850523b"
+    },
+    {
+      "name": "Aditya Sharma",
+      "designation": "USG Creation",
+      "image": "./TeamImages/Aditya_Sharma.jpg",
+      "linkedin":"#"
     }
+    
   ]
 
 

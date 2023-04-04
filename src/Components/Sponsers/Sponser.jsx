@@ -18,7 +18,7 @@ function Sponsers() {
     <>
       <AboutBanner munheading={'OUR SPONSERS'} />
       <Box width={'100%'} backgroundColor={'green.50'}>
-        <Box ml={['0', '10']} pt={'10'} bg="green.50" pb={'10'}>
+        <Box pl={['0', '10']} pt={'10'} bg="green.50" pb={'10'}>
           <Grid
             templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
             ml={['10%', '12%']}
