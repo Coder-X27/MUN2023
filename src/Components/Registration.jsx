@@ -36,9 +36,15 @@ const Registration = () => {
                 </CardBody>
                 <CardFooter display={'flex'} flexDirection="column"  justifyContent='center'>
                   <Text textAlign={'center'} marginBottom="5">
-                    Application Fees 2000/-
+                    {/* Application Fees 2000/- */}
                   </Text>
-                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
+                  <Button colorScheme={'green'}
+                  size={'lg'}
+                  variant="solid" 
+                  onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://forms.gle/JH4Vb2rK8pDSu2oW6';
+                  }}>Register Now !</Button>
                 </CardFooter>
               </Card>
               <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
@@ -49,8 +55,36 @@ const Registration = () => {
                   <Image src={reg2} />
                 </CardBody>
                 <CardFooter display={'flex'} flexDirection="column"  justifyContent='center'>
+                  <Text textAlign={'center'}>
+                    Priority Round 1800/-
+                  </Text>
                   <Text textAlign={'center'} marginBottom="5">
-                    Application Fees 2000/-
+                    First Round 2000/-
+                  </Text>
+                  <Button 
+                  colorScheme={'green'} 
+                  size={'lg'} 
+                  variant="solid"
+                  onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://forms.gle/JH4Vb2rK8pDSu2oW6';
+                  }}                  
+                  >Register Now !</Button>
+                </CardFooter>
+              </Card>
+              <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
+                <CardHeader>
+                  <Heading size="md" textAlign={'center'} fontWeight="semibold"> International Press</Heading>
+                </CardHeader>
+                <CardBody display={'flex'} flexDir="column" justifyContent={'center'} alignItems="center">
+                  <Image src={reg4} />
+                </CardBody>
+                <CardFooter display={'flex'} flexDirection="column"  justifyContent='center'>
+                <Text textAlign={'center'}>
+                    Priority Round 1800/-
+                  </Text>
+                  <Text textAlign={'center'} marginBottom="5">
+                    First Round 2000/-
                   </Text>
                   <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
                 </CardFooter>
@@ -64,25 +98,12 @@ const Registration = () => {
                 </CardBody>
                 <CardFooter display={'flex'} flexDirection="column"  justifyContent='center'>
                   <Text textAlign={'center'} marginBottom="5">
-                    Application Fees 2000/-
+                    {/* Application Fees 2000/- */}
                   </Text>
                   <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
                 </CardFooter>
               </Card>
-              <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
-                <CardHeader>
-                  <Heading size="md" textAlign={'center'} fontWeight="semibold"> International Press</Heading>
-                </CardHeader>
-                <CardBody display={'flex'} flexDir="column" justifyContent={'center'} alignItems="center">
-                  <Image src={reg4} />
-                </CardBody>
-                <CardFooter display={'flex'} flexDirection="column"  justifyContent='center'>
-                  <Text textAlign={'center'} marginBottom="5">
-                    Application Fees 2000/-
-                  </Text>
-                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
-                </CardFooter>
-              </Card>
+              
               
               
               

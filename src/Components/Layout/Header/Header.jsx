@@ -89,14 +89,14 @@ const Header = () => {
                   Registrations
                 </Button>
               </Link>
-              <Link onClick={onClose} to="/agenda">
+              {/* <Link onClick={onClose} to="/agenda">
                 <Button
                   variant="ghost"
                   leftIcon={<BsCardChecklist fontSize="18px" />}
                 >
                   Agendas
                 </Button>
-              </Link>
+              </Link> */}
               <Link onClick={onClose} to="/gallery">
                 <Button
                   variant="ghost"
