@@ -19,7 +19,6 @@ import { RiMenu5Fill, RiTeamLine, RiRegisteredLine } from 'react-icons/ri';
 import { GiSmartphone } from 'react-icons/gi';
 import { GrDocumentConfig, GrGallery } from 'react-icons/gr';
 import { AiOutlineHome } from 'react-icons/ai';
-import { BsCardChecklist } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { FaChevronDown, FaRegHandshake } from 'react-icons/fa';
 import logo from '../../../Assets/Logos/munGreyLogo.png';
