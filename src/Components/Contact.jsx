@@ -11,26 +11,26 @@ import {
 } from '@chakra-ui/react';
 import AboutBanner from './About/AboutBanner';
 
-function sheeddb() {
-  fetch('https://sheetdb.io/api/v1/nd21gzq06h0t4', {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      data: [
-        {
-          id: 'INCREMENT',
-          name: 'Mark',
-          phone: 18,
-        },
-      ],
-    }),
-  })
-    .then(response => response.json())
-    .then(data => console.log(data));
-}
+// function sheeddb() {
+//   fetch('https://sheetdb.io/api/v1/nd21gzq06h0t4', {
+//     method: 'POST',
+//     headers: {
+//       Accept: 'application/json',
+//       'Content-Type': 'application/json',
+//     },
+//     body: JSON.stringify({
+//       data: [
+//         {
+//           id: 'INCREMENT',
+//           name: 'Mark',
+//           phone: 18,
+//         },
+//       ],
+//     }),
+//   })
+//     .then(response => response.json())
+//     .then(data => console.log(data));
+// }
 
 function Contact() {
   const theme = useTheme();
