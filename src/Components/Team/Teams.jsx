@@ -38,7 +38,7 @@ function Team() {
                           height={'300px'}
                         />
                         <Stack mt="6" spacing="3">
-                          <Text textAlign={'center'} size="md" fontSize={'30px'} fontWeight={'semibold'} textTransform={'uppercase'}>{name}</Text>
+                          <Text textAlign={'center'} size="md" fontSize={'24px'} fontWeight={'semibold'} textTransform={'uppercase'}>{name}</Text>
                           <Text textAlign={'center'} fontStyle={'italic'} >{designation}</Text>
                         </Stack>
                       </CardBody>

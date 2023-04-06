@@ -17,6 +17,10 @@ import {
   useDisclosure
 } from '@chakra-ui/react';
 import React from 'react';
+import shrey from "../../Assets/testimonials/shrey.jpg";
+import sarthak from "../../Assets/testimonials/sarthak.jpg";
+import rishit from "../../Assets/testimonials/rishit.jpg";
+import saloni from "../../Assets/testimonials/saloni.jpg";
 import logo from '../../Assets/Logos/mun2023.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpeg';
@@ -714,7 +718,7 @@ const Home = () => {
             </Container>
       </Box>
       {/* TESTIMONIALS  */}
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pt={5}>
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pt={5} pb={"4%"}>
         <Container
           maxWidth={['100%','85%']}
           minHeight="100vh"
@@ -741,12 +745,11 @@ const Home = () => {
                   <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
                     <Avatar
                       name="Segun Adebayo"
-                      src="https://bit.ly/sage-adebayo"
+                      src={shrey}
                       size={'xl'}
                     />
                     <Box>
-                      <Heading size="sm">Segun Adebayo</Heading>
-                      <Text>Creator, Chakra UI</Text>
+                      <Heading size="sm">Shrey Bhargava</Heading>
                     </Box>
                   </Flex>
                   <IconButton
@@ -759,9 +762,13 @@ const Home = () => {
               </CardHeader>
               <CardBody>
                 <Text>
-                  With Chakra UI, I wanted to sync the speed of development with
-                  the speed of design. I wanted the developer to be just as
-                  excited as the designer to create a screen.
+                The JECRC Model United Nations Conference 2022 was a unique and impactful event that left a lasting impression on me.
+                The emphasis on inclusivity and diversity created an atmosphere of respect and mutual understanding, while the engaging 
+                agendas challenged me to think beyond traditional solutions. The conference provided me with practical skills such as 
+                public speaking, negotiation, and critical thinking, which I believe will be invaluable in my future endeavors. The 
+                opportunity to collaborate with like-minded individuals from around the world was also a highlight of the conference. 
+                Overall, I would highly recommend the JECRC MUN to anyone looking to expand their horizons, develop practical skills, 
+                and make a positive impact on the world
                 </Text>
               </CardBody>
               
@@ -772,12 +779,11 @@ const Home = () => {
                   <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
                     <Avatar
                       name="Segun Adebayo"
-                      src="https://bit.ly/sage-adebayo"
+                      src={sarthak}
                       size={'xl'}
                     />
                     <Box>
-                      <Heading size="sm">Segun Adebayo</Heading>
-                      <Text>Creator, Chakra UI</Text>
+                      <Heading size="sm">Sarthak Agrawal</Heading>
                     </Box>
                   </Flex>
                   <IconButton
@@ -790,9 +796,13 @@ const Home = () => {
               </CardHeader>
               <CardBody>
                 <Text>
-                  With Chakra UI, I wanted to sync the speed of development with
-                  the speed of design. I wanted the developer to be just as
-                  excited as the designer to create a screen.
+                The JECRC Model United Nations Conference was an unforgettable experience. The conference provided me with a platform to 
+                discuss and debate complex global issues with a diverse group of individuals. The opportunity to interact with people from 
+                different backgrounds and cultures allowed me to broaden my perspective and gain a deeper understanding of the world 
+                around me. The event was expertly organized, with engaging agendas and thought-provoking discussions. I was impressed 
+                by the professionalism and dedication of the organizers, who worked tirelessly to ensure that every participant had a 
+                rewarding experience. Overall, the JECRC MUN Conference was a highly valuable and enriching experience that I would 
+                highly recommend to anyone interested in global affairs and diplomacy
                 </Text>
               </CardBody>
             </Card>
@@ -802,12 +812,11 @@ const Home = () => {
                   <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
                     <Avatar
                       name="Segun Adebayo"
-                      src="https://bit.ly/sage-adebayo"
+                      src={saloni}
                       size={'xl'}
                     />
                     <Box>
-                      <Heading size="sm">Segun Adebayo</Heading>
-                      <Text>Creator, Chakra UI</Text>
+                      <Heading size="sm">Saloni Vyas</Heading>
                     </Box>
                   </Flex>
                   <IconButton
@@ -820,9 +829,48 @@ const Home = () => {
               </CardHeader>
               <CardBody>
                 <Text>
-                  With Chakra UI, I wanted to sync the speed of development with
-                  the speed of design. I wanted the developer to be just as
-                  excited as the designer to create a screen.
+                The JECRC MUN Conference 2022 was a conference unlike any other I have ever attended. The organizers did an outstanding 
+                job of creating an environment that fostered intellectual curiosity, collaboration, and diplomacy. The agendas were 
+                thought-provoking, and the discussions were engaging, challenging me to think critically about global issues.
+
+                What made the conference truly unique, however, was the networking opportunities it provided. I was able to meet and 
+                network with fellow delegates from all over the country, and the conversations we had were insightful and inspiring. 
+                I learned so much from the diverse range of perspectives and experiences shared by my fellow delegates, and the 
+                connections I made will undoubtedly last a lifetime.
+
+                The organization of the conference was also impressive, and the organizers went out of their way to ensure that every 
+                delegate had a positive and rewarding experience. Overall, I would highly recommend the JECRC Model UN Conference to 
+                anyone looking to expand their knowledge, network with like-minded individuals, and gain valuable skills for the future.
+                </Text>
+              </CardBody>
+              
+            </Card>
+            <Card size="md">
+              <CardHeader>
+                <Flex spacing="4">
+                  <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
+                    <Avatar
+                      name="Segun Adebayo"
+                      src={rishit}
+                      size={'xl'}
+                    />
+                    <Box>
+                      <Heading size="sm">Rishit Mangal</Heading>
+                    </Box>
+                  </Flex>
+                  <IconButton
+                    variant="ghost"
+                    colorScheme="gray"
+                    aria-label="See menu"
+                    icon={<BsThreeDotsVertical />}
+                  />
+                </Flex>
+              </CardHeader>
+              <CardBody>
+                <Text>
+                JECRC MUN is an excellent opportunity for students who want to enhance their knowledge of international relations, 
+                diplomacy, and public speaking. The conference provides a stimulating and challenging environment that encourages 
+                delegates to reach their full potential, and I would highly recommend it to anyone looking for an enriching MUN experience.
                 </Text>
               </CardBody>
               
