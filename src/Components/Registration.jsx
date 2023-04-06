@@ -67,7 +67,7 @@ const Registration = () => {
                   variant="solid"
                   onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://forms.gle/JH4Vb2rK8pDSu2oW6';
+                  window.location.href='https://forms.gle/b1P18DUdhwZund2y6';
                   }}                  
                   >Register Now !</Button>
                 </CardFooter>
@@ -86,7 +86,14 @@ const Registration = () => {
                   <Text textAlign={'center'} marginBottom="5">
                     First Round 2000/-
                   </Text>
-                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
+                  <Button 
+                  colorScheme={'green'} 
+                  size={'lg'} 
+                  variant="solid" 
+                  onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://forms.gle/AuBeYYUcjP92vuuo8';
+                  }}  >Register Now !</Button>
                 </CardFooter>
               </Card>
               <Card size={'md'} variant="elevated" marginTop={['5','20']} marginBottom={['5','20']}>
@@ -100,7 +107,14 @@ const Registration = () => {
                   <Text textAlign={'center'} marginBottom="5">
                     {/* Application Fees 2000/- */}
                   </Text>
-                  <Button colorScheme={'green'} size={'lg'} variant="solid">Register Now !</Button>
+                  <Button 
+                  colorScheme={'green'}  
+                  size={'lg'} 
+                  variant="solid" 
+                  onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://forms.gle/Hq3uGTTqjmaexZp77';
+                  }} >Register Now !</Button>
                 </CardFooter>
               </Card>
               
