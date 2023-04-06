@@ -43,7 +43,7 @@ const Registration = () => {
                   variant="solid" 
                   onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://forms.gle/JH4Vb2rK8pDSu2oW6';
+                  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfXSXwwz8x2OB_0jFGODn5m81WYU9Ea5pKbX65nRHuuXDv_QA/viewform';
                   }}>Register Now !</Button>
                 </CardFooter>
               </Card>
