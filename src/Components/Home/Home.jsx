@@ -25,7 +25,7 @@ import logo from '../../Assets/Logos/mun2023.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpeg';
 import unsc from '../../Assets/images/UNSClogo.png';
-import unscpic from '../../Assets/Logos/unsc.webp';
+import unscpic from '../../Assets/Logos/unsc.jpg';
 import aippm from'../../Assets/Logos/aippm.webp';
 import ecofin from'../../Assets/Logos/ecofin.webp';
 import ip_logo from '../../Assets/Logos/ip-logo.webp';
