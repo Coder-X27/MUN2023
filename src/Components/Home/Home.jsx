@@ -8,7 +8,6 @@ import {
   Container,
   Flex,
   Heading,
-  IconButton,
   Image,
   SimpleGrid,
   Stack,
@@ -40,7 +39,6 @@ import {
   FaRegCalendarCheck,
   FaRegShareSquare,
 } from 'react-icons/fa';
-import { BsThreeDotsVertical } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 const Home = () => {
   const { onClose } = useDisclosure();
@@ -129,6 +127,7 @@ const Home = () => {
                 fontSize={['18px', '22px']}
                 letterSpacing="1px"
                 fontWeight={'medium'}
+                textAlign={'justify'}
               >
                 JECRC MUN is a ten years old legacy established in 2012, making
                 JECRC the first host of a MUN conference in Jaipur. Inaugurated
@@ -150,7 +149,7 @@ const Home = () => {
               </Link>
             </VStack>
             <VStack alignItems={['center', 'flex-end']} width={['100%', '50%']}>
-              <Image width={['85%', '60%']} src={intro} />
+              <Image width={['85%', '80%']} src={intro} />
             </VStack>
           </Stack>
           <Stack width={'100%'} marginTop={['10', '20']} alignItems={'center'}>
@@ -221,6 +220,7 @@ const Home = () => {
                 fontSize={['18px', '22px']}
                 letterSpacing="1px"
                 fontWeight={'medium'}
+                textAlign={'justify'}
               >
                 The Zero Hour Summit aims to center the voices of our college
                 youth in the conversation about national and international
@@ -243,9 +243,10 @@ const Home = () => {
             </VStack>
             <VStack
               alignItems={['center', 'flex-start']}
+              justifyContent={['center', 'center']}
               width={['100%', '50%']}
             >
-              <Image width={['85%', '60%']} src={unsc} />
+              <Image width={['85%', '80%']} src={unsc} />
             </VStack>
           </Stack>
         </Container>
@@ -547,7 +548,7 @@ const Home = () => {
               COMMITTEE
             </Heading>
             <Card
-              width={['100%', '90%']}
+              width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row' }}
               overflow="hidden"
               variant="filled"
@@ -555,7 +556,7 @@ const Home = () => {
               marginTop={'10'}
             >
              <Image
-                objectFit="cover"
+                objectFit="contain"
                 maxW={{ base: '100%', sm: '300px' }}
                 src={unscpic}
                 alt="Caffe Latte"
@@ -563,11 +564,11 @@ const Home = () => {
 
               <Stack>
                 <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
                   United Nations Security Council (UNSC)
                   </Heading>
 
-                  <Text py="2" fontSize={['15px', '20px']}>
+                  <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>
                     Urgent discussions on gun control, and enforcement of measures intended to restrict the possession and the use of 
                     firearms.
                   </Text>
@@ -575,14 +576,14 @@ const Home = () => {
               </Stack>
             </Card>
             <Card
-              width={['100%', '90%']}
+              width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row-reverse' }}
               overflow="hidden"
               variant="filled"
               marginTop={'10'}
             >
              <Image
-                objectFit="cover"
+                objectFit="contain"
                 maxW={{ base: '100%', sm: '300px' }}
                 src={aippm}
                 alt="Caffe Latte"
@@ -604,14 +605,14 @@ const Home = () => {
               </Stack>
             </Card>
             <Card
-              width={['100%', '90%']}
+              width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row' }}
               overflow="hidden"
               variant="filled"
               marginTop={'10'}
             >
               <Image
-                objectFit="cover"
+                objectFit="contain"
                 maxW={{ base: '100%', sm: '300px' }}
                 src={unhrc}
                 alt="Caffe Latte"
@@ -619,26 +620,26 @@ const Home = () => {
 
               <Stack>
                 <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
                   United Nations Human Rights Council (UNHRC):
                   </Heading>
                   
 
-                  <Text py="2" fontSize={['15px', '20px']}>
+                  <Text py="2" fontSize={['15px', '20px']} textAlign={'justify'}>
                   Protecting victims of human trafficking in conflict and post-conflict situations. (Special emphasis on women and children)
                   </Text>
                 </CardBody>
               </Stack>
             </Card>
             <Card
-              width={['100%', '90%']}
+              width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row-reverse' }}
               overflow="hidden"
               variant="filled"
               marginTop={'10'}
             >
               <Image
-                objectFit="cover"
+                objectFit="contain"
                 maxW={{ base: '100%', sm: '300px' }}
                 src={ecofin}
                 alt="Caffe Latte"
@@ -646,19 +647,19 @@ const Home = () => {
 
               <Stack>
                 <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
                   Economic and Financial Affairs Council (ECOFIN)
                   </Heading>
                   
 
-                  <Text py="2" fontSize={['15px', '20px']}>
+                  <Text py="2" fontSize={['15px', '20px']} textAlign="justify">
                   Discussion on the international banking crisis and its impact.
                   </Text>
                 </CardBody>
               </Stack>
             </Card>
             <Card
-              width={['100%', '90%']}
+              width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row' }}
               overflow="hidden"
               variant="filled"
@@ -673,12 +674,12 @@ const Home = () => {
 
               <Stack>
                 <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="start">
                   Social, Humanitarian, and Cultural Committee (UNGA-SOCHUM)
                   </Heading>
                   
 
-                  <Text py="2" fontSize={['15px', '20px']}>
+                  <Text py="2" fontSize={['15px', '20px']} textAlign="justify">
                   Addressing all forms of discrimination against people belonging to marginalized sexual orientations & gender identities.
 
 
@@ -687,14 +688,14 @@ const Home = () => {
               </Stack>
             </Card>
             <Card
-              width={['100%', '90%']}
+              width={['100%', '80%']}
               direction={{ base: 'column', sm: 'row-reverse' }}
               overflow="hidden"
               variant="filled"
               marginTop={'10'}
             >
               <Image
-                objectFit="cover"
+                objectFit="contain"
                 maxW={{ base: '100%', sm: '300px' }}
                 src={ip_logo}
                 alt="Caffe Latte"
@@ -702,13 +703,13 @@ const Home = () => {
 
               <Stack>
                 <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
+                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body" textAlign="left">
                   International Press (IP): 
 
                   </Heading>
                   
 
-                  <Text py="2" fontSize={['15px', '20px']}>
+                  <Text py="2" fontSize={['15px', '20px']} textAlign="justify">
                   Reporter | Photographer | Caricaturist
 
                   </Text>
@@ -738,30 +739,26 @@ const Home = () => {
           <SimpleGrid
             spacing={4}
             templateColumns="repeat(auto-fill, minmax(100%, 1fr))"
+            
           >
-            <Card size={"md"}>
+            <Card size={"md"} width={['100%','90%']} justifySelf={'center'}>
               <CardHeader>
                 <Flex spacing="4">
                   <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
                     <Avatar
                       name="Segun Adebayo"
                       src={shrey}
-                      size={'xl'}
+                      size={'2xl'}
                     />
                     <Box>
-                      <Heading size="sm">Shrey Bhargava</Heading>
+                      <Heading size="lg" fontWeight={'semibold'}>SHREY BHARGAVA</Heading>
                     </Box>
                   </Flex>
-                  <IconButton
-                    variant="ghost"
-                    colorScheme="gray"
-                    aria-label="See menu"
-                    icon={<BsThreeDotsVertical />}
-                  />
+                  
                 </Flex>
               </CardHeader>
               <CardBody>
-                <Text>
+                <Text textAlign="justify" fontSize="17px">
                 The JECRC Model United Nations Conference 2022 was a unique and impactful event that left a lasting impression on me.
                 The emphasis on inclusivity and diversity created an atmosphere of respect and mutual understanding, while the engaging 
                 agendas challenged me to think beyond traditional solutions. The conference provided me with practical skills such as 
@@ -773,29 +770,24 @@ const Home = () => {
               </CardBody>
               
             </Card>
-            <Card size="md">
+            <Card size="md" width={['100%','90%']} justifySelf={'center'}>
               <CardHeader>
                 <Flex spacing="4">
                   <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
                     <Avatar
                       name="Segun Adebayo"
                       src={sarthak}
-                      size={'xl'}
+                      size={'2xl'}
                     />
                     <Box>
-                      <Heading size="sm">Sarthak Agrawal</Heading>
+                      <Heading size="lg" fontWeight={'semibold'} textTransform={'uppercase'}>Sarthak Agrawal</Heading>
                     </Box>
                   </Flex>
-                  <IconButton
-                    variant="ghost"
-                    colorScheme="gray"
-                    aria-label="See menu"
-                    icon={<BsThreeDotsVertical />}
-                  />
+
                 </Flex>
               </CardHeader>
               <CardBody>
-                <Text>
+                <Text fontSize="17px">
                 The JECRC Model United Nations Conference was an unforgettable experience. The conference provided me with a platform to 
                 discuss and debate complex global issues with a diverse group of individuals. The opportunity to interact with people from 
                 different backgrounds and cultures allowed me to broaden my perspective and gain a deeper understanding of the world 
@@ -806,29 +798,24 @@ const Home = () => {
                 </Text>
               </CardBody>
             </Card>
-            <Card size="md">
+            <Card size="md" width={['100%','90%']} justifySelf={'center'}>
               <CardHeader>
                 <Flex spacing="4">
                   <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
                     <Avatar
                       name="Segun Adebayo"
                       src={saloni}
-                      size={'xl'}
+                      size={'2xl'}
                     />
                     <Box>
-                      <Heading size="sm">Saloni Vyas</Heading>
+                      <Heading size="lg" fontWeight={'semibold'} textTransform={'uppercase'}>Saloni Vyas</Heading>
                     </Box>
                   </Flex>
-                  <IconButton
-                    variant="ghost"
-                    colorScheme="gray"
-                    aria-label="See menu"
-                    icon={<BsThreeDotsVertical />}
-                  />
+                  
                 </Flex>
               </CardHeader>
               <CardBody>
-                <Text>
+                <Text fontSize={'17px'}>
                 The JECRC MUN Conference 2022 was a conference unlike any other I have ever attended. The organizers did an outstanding 
                 job of creating an environment that fostered intellectual curiosity, collaboration, and diplomacy. The agendas were 
                 thought-provoking, and the discussions were engaging, challenging me to think critically about global issues.
@@ -845,29 +832,24 @@ const Home = () => {
               </CardBody>
               
             </Card>
-            <Card size="md">
+            <Card size="md" width={['100%','90%']} justifySelf={'center'}>
               <CardHeader>
                 <Flex spacing="4">
                   <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
                     <Avatar
                       name="Segun Adebayo"
                       src={rishit}
-                      size={'xl'}
+                      size={'2xl'}
                     />
                     <Box>
-                      <Heading size="sm">Rishit Mangal</Heading>
+                      <Heading size="lg" textTransform={'uppercase'} fontWeight={'semibold'}>Rishit Mangal</Heading>
                     </Box>
                   </Flex>
-                  <IconButton
-                    variant="ghost"
-                    colorScheme="gray"
-                    aria-label="See menu"
-                    icon={<BsThreeDotsVertical />}
-                  />
+                  
                 </Flex>
               </CardHeader>
               <CardBody>
-                <Text>
+                <Text fontSize={'17px'}>
                 JECRC MUN is an excellent opportunity for students who want to enhance their knowledge of international relations, 
                 diplomacy, and public speaking. The conference provides a stimulating and challenging environment that encourages 
                 delegates to reach their full potential, and I would highly recommend it to anyone looking for an enriching MUN experience.
@@ -890,7 +872,7 @@ const Home = () => {
         <Container background={'blackAlpha.800'} minWidth="100%">
           <Container
             minWidth={'85%'}
-            minHeight="80vh"
+            minHeight="100vh"
             display="flex"
             flexDir={'column'}
             justifyContent="center"
@@ -900,7 +882,11 @@ const Home = () => {
               {' '}
               CHIEF GUESTS
             </Heading>
-            <Card
+            <Heading color={'white'} letterSpacing="2px" marginTop={'20'}>
+              {' '}
+              To be Announced Soon ....
+            </Heading>
+            {/* <Card
               width={['100%', '90%']}
               direction={{ base: 'column', sm: 'row' }}
               overflow="hidden"
@@ -999,7 +985,7 @@ const Home = () => {
               marginBottom={'20'}
             >
               View More
-            </Button>
+            </Button> */}
           </Container>
         </Container>
       </Box>

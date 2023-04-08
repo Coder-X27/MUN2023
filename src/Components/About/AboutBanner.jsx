@@ -14,7 +14,7 @@ const AboutBanner = (props) => {
     >
         <Container background={'blackAlpha.800'} minWidth="100%" height="40vh" display={'flex'} flexDir="column" justifyContent={'center'} alignItems="center">
             <Heading fontSize={'50px'} letterSpacing='4px' textAlign={'center'} color={'white'}>{props.munheading}</Heading>
-            <Heading fontSize={'30px'} textAlign={'center'} color={'white'}>Jecrc Mun</Heading>
+            <Heading fontSize={'30px'} textAlign={'center'} color={'white'}>JECRC MUN</Heading>
         </Container>
 
     </Box>

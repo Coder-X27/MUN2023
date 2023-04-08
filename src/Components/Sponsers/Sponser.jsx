@@ -37,6 +37,8 @@ function Sponsers() {
                     h="250px"
                     borderRadius="md"
                     boxShadow="md"
+                    objectFit={'contain'}
+                    p={'10px'}
                   />
                 );
               })}
