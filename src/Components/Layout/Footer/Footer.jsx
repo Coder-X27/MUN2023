@@ -86,7 +86,7 @@ const Footer = () => {
                 Contacts
               </Heading>
               <Text  color={'white'} fontSize={['8px','15px']}>
-                Vrindaa Joshi - 7296877859 <br /> Shyam Garg - 7073168531
+                Pratham Kabra - 7073616967 <br /> Shyam Garg - 7073168531
               </Text>
             </VStack>
           </HStack>
