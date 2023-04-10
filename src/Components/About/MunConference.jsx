@@ -6,10 +6,15 @@ import {
   Container,
   Card,
   CardBody,
+  Link,
+  Button,
+  useDisclosure,
+  Stack
 } from '@chakra-ui/react';
 import AboutBanner from './AboutBanner';
 
 const MunConference = () => {
+  const { onClose } = useDisclosure();
   return (
     <>
       <AboutBanner munheading={'ABOUT US'} />
@@ -28,7 +33,7 @@ const MunConference = () => {
               width={['100%', '90%']}
             >
               <Card size={'lg'} marginTop="20" marginBottom={'20'}>
-                <CardBody paddingLeft={['5','20']} paddingRight={['5','20']}>
+                <CardBody paddingLeft={['5','20']} paddingRight={['5','20']} >
                   <Heading
                     className="about_heading"
                     color={'green.500'}
@@ -46,14 +51,10 @@ const MunConference = () => {
                     fontWeight={['normal','medium']}
                     fontSize={['15px',"17px"]}
                   >
-                    JECRC MUN is a ten years old legacy established in 2012,
-                    making JECRC the first host of a MUN conference in Jaipur.
-                    Inaugurated by the eminent educationist Shri Kul Bhushan
-                    Kothari, JECRC MUN has spiraled out exponentially to achieve
-                    the pinnacle of growth. With the zealous efforts of
-                    extensive organizing committees over the 10 years of
-                    conducting MUN conferences, we have gained a lot of momentum
-                    inviting immense participation from across the country.
+                    Welcome to the 11-year-old legacy of JECRC MUN, established in 2012 by like–minded individuals aiming to create a 
+                    society for youth to discuss, debate, and deliberate present-day crises while experiencing themselves standing in the 
+                    shoe of various world leaders. JECRC MUN, the foremost host of the Model UN Conference in Jaipur was inaugurated by the
+                    eminent educationist Shri Kulbhushan Kothari. 
                   </Text>
                   <Text
                     className="about_text"
@@ -62,17 +63,8 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    Till the eighth edition, we have hosted approximately 2000+
-                    delegates, including international delegates as well. To
-                    appreciate the endeavors of the participants and inspire
-                    them to sharpen their skills of diplomacy, we have had some
-                    renowned chief guests. For JECRC MUN 2018, we were graced by
-                    the presence of Shri Manishankar Aiyar, politician and
-                    diplomat and Shri Anand Chulani, a world-famous motivational
-                    speaker. In the eighth edition of 2019, the green-Hyderabad
-                    pioneer, Ms Hari Chandna Dasari, IAS ZHMC and Dr Jawahar
-                    Surisetti blessed us with their presence and filled the
-                    spirits of delegates with enthusiasm.
+                    With together efforts of our enthusiastic and extensive organizing committees over 11 years of conducting Model UN 
+                    conferences, we have arisen as one of the best and most promising Model UN societies in India.
                   </Text>
                   <Text
                     className="about_text"
@@ -81,16 +73,9 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    Every year our expanse of expertise has grown beyond the
-                    previously achieved marks, as we continue to set new
-                    benchmarks for our future conferences. The committees we
-                    simulate and the agendas we offer, both give mind-bending
-                    experiences to the delegates. The prominent committees are
-                    General Assembly- Disarmament and International Security
-                    (GA-DISEC), United Nations Security Council (UNSC),
-                    International Monetary Fund (IMF), Lok Sabha, and
-                    International Press. The recent editions have also witnessed
-                    a Special Committe.
+                    Till the 11th edition, we have hosted approximately 2000+ delegates, including international delegates as well.
+                    To appreciate the endeavours of the participants and aspire to involve youth in international dialogue, deliberate 
+                    upon the dire issues of the world, and shape them into strong individuals who'll become the leaders of tomorrow.
                   </Text>
                   <Text
                     className="about_text"
@@ -99,16 +84,29 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    We have created a promising platform for all the young
-                    diplomats that seek experience and genuine input about their
-                    performances, all credited to the correct MUN environment we
-                    offer. Our success as a MUN community is attributed to our
-                    delegates, and we wish to improve and attain the pinnacle of
-                    perfection for their sake. This year at JECRC MUN 2022, the
-                    experience will be a never before one of its kind adventure
-                    for the delegates. Like always, only grander!
+                    For JECRC Model UN 2018, we were graced by the presence of Shri Manishankar Aiyar, a politician, and diplomat, and 
+                    Shri Anand Chulani a world-famous motivational speaker. In the eighth edition of 2019, the green-Hyderabad pioneer, 
+                    Ms. Hari Chandna Dasari, IAS ZHMC, and Dr Jawahar Surisetti. For the 10th edition of 2020, Mr. Sanjay Jha, the former 
+                    national spokesperson for the Indian National Congress party. He is also the Former President of All India 
+                    Professionals Congress, Maharashtra. Following the 11th edition in 2022, Dr Munish Jindal, Founder & CEO of 
+                    HoverRobotix and the Founding President of MENTORx Global, he is conferred with the highest civilian honour 
+                    “Karmaveer Chakra” by United Nations. He is the Noble Asian of the Year 2018; the man who followed his dreams, 
+                    and Mr. Satish C. Mehta, Indian Foreign Servies1983 and retired as Director General, Indian Council for Cultural 
+                    Relations in 2015 blessed us with their presence and filled the spirits of delegates with morale and zeal.
                   </Text>
+                  <Stack align="center" pt="10">
+                <Link onClick={onClose} to="/register">
+                <Button 
+                variant={'solid'} 
+                colorScheme="green" 
+                size={['md', 'lg']}
+                >
+                  Register Now
+                </Button>
+                </Link>
+                </Stack>
                 </CardBody>
+                
               </Card>
             </VStack>
           </Container>

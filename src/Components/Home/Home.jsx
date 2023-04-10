@@ -22,14 +22,14 @@ import rishit from "../../Assets/testimonials/rishit.jpg";
 import saloni from "../../Assets/testimonials/saloni.jpg";
 import logo from '../../Assets/Logos/mun2023.png';
 import bg from '../../Assets/Logos/bg2.webp';
-import intro from '../../Assets/images/aboutIntro.jpeg';
+import intro from '../../Assets/images/aboutIntro.jpg';
 import unsc from '../../Assets/images/UNSClogo.png';
 import unscpic from '../../Assets/Logos/unsc.png';
-import aippm from'../../Assets/Logos/aippm.webp';
+import aippm from'../../Assets/Logos/aippm.png';
 import ecofin from'../../Assets/Logos/ecofin.webp';
-import ip_logo from '../../Assets/Logos/ip-logo.webp';
-import unhrc from '../../Assets/Logos/UNHRC.webp';
-import unga from '../../Assets/Logos/UNHRC.webp';
+import ip_logo from '../../Assets/Logos/ip-logo.png';
+import unhrc from '../../Assets/Logos/UNHRC.png';
+import unga from '../../Assets/Logos/UNGA.png';
 import './Home.css';
 import {
   FaAngellist,
@@ -129,14 +129,11 @@ const Home = () => {
                 fontWeight={'medium'}
                 textAlign={'justify'}
               >
-                JECRC MUN is a ten years old legacy established in 2012, making
-                JECRC the first host of a MUN conference in Jaipur. Inaugurated
-                by the eminent educationist Shri Kul Bhushan Kothari, JECRC MUN
-                has spiraled out exponentially to achieve the pinnacle of
-                growth. With the zealous efforts of extensive organizing
-                committees over the 10 years of conducting MUN conferences, we
-                have gained a lot of momentum inviting immense participation
-                from across the country.
+                Welcome to the 11-year-old legacy of JECRC MUN, established in 2012 by like–minded individuals aiming to create a society 
+                for youth to discuss, debate, and deliberate present-day crises while experiencing themselves standing in the shoe of 
+                various world leaders. JECRC MUN, the foremost host of the Model UN Conference in Jaipur was inaugurated by the eminent 
+                educationist Shri Kulbhushan Kothari.With together efforts of our enthusiastic and extensive organizing committees over 11 years of conducting Model UN 
+                conferences, we have arisen as one of the best and most promising Model UN societies in India.
               </Text>
               <Link onClick={onClose} to="/munconference">
               <Button 
@@ -148,7 +145,7 @@ const Home = () => {
               </Button>
               </Link>
             </VStack>
-            <VStack alignItems={['center', 'flex-end']} width={['100%', '50%']}>
+            <VStack alignItems={['center', 'flex-end']} pt={'8%'} width={['100%', '50%']}>
               <Image width={['85%', '80%']} src={intro} />
             </VStack>
           </Stack>
@@ -161,7 +158,7 @@ const Home = () => {
                   fontWeight="semibold"
                   color={'white'}
                 >
-                  <span>2000+</span> <br />
+                  <span>2500+</span> <br />
                   delegates
                 </Heading>
               </Box>
@@ -183,7 +180,7 @@ const Home = () => {
                   fontWeight="semibold"
                   color={'white'}
                 >
-                  <span>700+</span> <br />
+                  <span>350+</span> <br />
                   PARTICIPATION INSTITUTES
                 </Heading>
               </Box>
@@ -194,7 +191,7 @@ const Home = () => {
                   fontWeight="semibold"
                   color={'white'}
                 >
-                  <span>14 Lakh+</span> <br />
+                  <span>15 Lakh+</span> <br />
                   MASSIVE OUTREACH
                 </Heading>
               </Box>
