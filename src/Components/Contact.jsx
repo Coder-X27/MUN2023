@@ -8,40 +8,64 @@ import {
   Textarea,
   Card,
   useTheme,
+  useToast
 } from '@chakra-ui/react';
 import AboutBanner from './About/AboutBanner';
+import axios from 'axios';
+import React, { useState } from 'react';
 
-// function sheeddb() {
-//   fetch('https://sheetdb.io/api/v1/nd21gzq06h0t4', {
-//     method: 'POST',
-//     headers: {
-//       Accept: 'application/json',
-//       'Content-Type': 'application/json',
-//     },
-//     body: JSON.stringify({
-//       data: [
-//         {
-//           id: 'INCREMENT',
-//           name: 'Mark',
-//           phone: 18,
-//         },
-//       ],
-//     }),
-//   })
-//     .then(response => response.json())
-//     .then(data => console.log(data));
-// }
+
 
 function Contact() {
   const theme = useTheme();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    mobile:"",
+    institution:"",
+    message: "",
+  });
+  const toast = useToast();
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post(
+        "https://sheetdb.io/api/v1/dn0y95uxqe0qsp",
+        { data: formData },
+        { headers: { Authorization: "Bearer wi42j4v5uoma4bu4683ru5ckpx6j8fcs84wcynwz" } }
+      );
+      console.log(res);
+      toast({
+        title: "Form submitted successfully.",
+        description: "Thank You for your response",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+      });
+    } catch (error) {
+      console.log(error);
+      toast({
+        title: "Error submitting form.",
+        description: "Please try again later.",
+        status: "error",
+        duration: 3000,
+        isClosable: true,
+      });
+    }
+  };
 
   return (
     <>
+      
       <AboutBanner munheading={'CONTACT US'} />
+      <Box bg={"green.50"} pb={['0','10']} pt={10}>
       <SimpleGrid
         minChildWidth="320px"
-        mb={['0', '10']}
-        mt={10}
         spacing={['40px', '0']}
       >
         <Box>
@@ -52,32 +76,34 @@ function Contact() {
               boxShadow="0px 0px 12px rgba(0, 0, 0, 0.6)"
               borderRadius="md"
             >
+              <form onSubmit={handleSubmit}>
               <FormControl id="name" mb={4} isRequired>
                 <FormLabel>Name</FormLabel>
-                <Input type="text" placeholder="Enter your name" />
+                <Input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Enter your name" />
               </FormControl>
 
               <FormControl id="email" mb={4} isRequired>
                 <FormLabel>Email address</FormLabel>
-                <Input type="email" placeholder="Enter your email" />
+                <Input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Enter your email" />
               </FormControl>
 
               <FormControl id="mobile" mb={4} isRequired>
                 <FormLabel>Mobile No</FormLabel>
-                <Input type="tel" placeholder="Enter your mobile number" />
+                <Input type="tel" name="mobile" value={formData.mobile} onChange={handleChange} placeholder="Enter your mobile number" />
               </FormControl>
 
               <FormControl id="institution" mb={4} isRequired>
                 <FormLabel>Institution</FormLabel>
-                <Input type="text" placeholder="Enter your institution name" />
+                <Input type="text" name="institution" value={formData.institution} onChange={handleChange} placeholder="Enter your institution name" />
               </FormControl>
 
               <FormControl id="message" mb={6} isRequired>
                 <FormLabel>Message</FormLabel>
-                <Textarea placeholder="Enter your message" />
+                <Textarea name="message" value={formData.message} onChange={handleChange} placeholder="Enter your message" />
               </FormControl>
 
               <Button
+                type="submit"
                 colorScheme="green"
                 size="lg"
                 color={theme.colors.white}
@@ -86,6 +112,7 @@ function Contact() {
               >
                 Send Message
               </Button>
+              </form>
             </Card>
           </Box>
         </Box>
@@ -106,6 +133,7 @@ function Contact() {
           ></iframe>
         </Box>
       </SimpleGrid>
+      </Box>
     </>
   );
 }
