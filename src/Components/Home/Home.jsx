@@ -24,7 +24,7 @@ import logo from '../../Assets/Logos/mun2023.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpeg';
 import unsc from '../../Assets/images/UNSClogo.png';
-import unscpic from '../../Assets/Logos/unsc.jpg';
+import unscpic from '../../Assets/Logos/unsc.png';
 import aippm from'../../Assets/Logos/aippm.webp';
 import ecofin from'../../Assets/Logos/ecofin.webp';
 import ip_logo from '../../Assets/Logos/ip-logo.webp';
@@ -69,8 +69,8 @@ const Home = () => {
           >
             Presents
           </Heading>
-          <Heading color={'green.500'} fontSize={['3xl', '6xl']}>
-            Awaken the Leader in you
+          <Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '5xl']}>
+            Empowering Deliberations <br /> Shaping The World
           </Heading>
           <Link to="/register">
             <Button
