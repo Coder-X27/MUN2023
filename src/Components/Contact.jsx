@@ -35,7 +35,7 @@ function Contact() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://sheetdb.io/api/v1/dn0y95uxqe0qsp",
+        "https://sheetdb.io/api/v1/dn0y95uxqe0qs",
         { data: formData },
         { headers: { Authorization: "Bearer wi42j4v5uoma4bu4683ru5ckpx6j8fcs84wcynwz" } }
       );
