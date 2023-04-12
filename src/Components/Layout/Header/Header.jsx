@@ -109,7 +109,7 @@ const Header = () => {
                   variant="ghost"
                   leftIcon={<FaRegHandshake fontSize="18px" />}
                 >
-                  Sponsers
+                  Sponsors
                 </Button>
               </Link>
               <Link onClick={onClose} to="/Contact">

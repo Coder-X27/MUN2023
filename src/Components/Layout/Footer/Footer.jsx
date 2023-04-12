@@ -51,8 +51,8 @@ const Footer = () => {
                 Address
               </Heading>
               <Text color={'white'} fontSize={['8px','15px']}>
-                Jecrc College, <br /> Shri Ram Ki Nangal, <br /> via Sitapura
-                RIICO, Tonk Road, Jaipur
+                JECRC College, <br /> Shri Ram Ki Nangal, <br /> via Sitapura
+                RIICO, Tonk Road, Jaipur<br />Pincode - 302 022
               </Text>
             </VStack>
             <VStack

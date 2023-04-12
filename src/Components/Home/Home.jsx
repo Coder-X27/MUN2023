@@ -23,13 +23,13 @@ import saloni from "../../Assets/testimonials/saloni.jpg";
 import logo from '../../Assets/Logos/mun2023.png';
 import bg from '../../Assets/Logos/bg2.webp';
 import intro from '../../Assets/images/aboutIntro.jpg';
-import unsc from '../../Assets/images/UNSClogo.png';
 import unscpic from '../../Assets/Logos/unsc.png';
 import aippm from'../../Assets/Logos/aippm.png';
 import ecofin from'../../Assets/Logos/ecofin.webp';
 import ip_logo from '../../Assets/Logos/ip-logo.png';
 import unhrc from '../../Assets/Logos/UNHRC.png';
 import unga from '../../Assets/Logos/UNGA.png';
+import zhs from '../../Assets/images/Group 133.png';
 import './Home.css';
 import {
   FaAngellist,
@@ -61,13 +61,6 @@ const Home = () => {
             fontWeight="semibold"
           >
             JECRC MUN
-          </Heading>
-          <Heading
-            color={'white'}
-            fontSize={['2xl', '5xl']}
-            fontWeight="semibold"
-          >
-            Presents
           </Heading>
           <Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '5xl']}>
             Empowering Deliberations <br /> Shaping The World
@@ -243,7 +236,7 @@ const Home = () => {
               justifyContent={['center', 'center']}
               width={['100%', '50%']}
             >
-              <Image width={['85%', '80%']} src={unsc} />
+              <Image width={['85%', '80%']} src={zhs} />
             </VStack>
           </Stack>
         </Container>
@@ -542,7 +535,7 @@ const Home = () => {
           >
             <Heading color={'green.500'} letterSpacing="2px" marginTop={'20'}>
               {' '}
-              COMMITTEE
+              COMMITTEES AND AGENDAS FOR THIS EDITION
             </Heading>
             <Card
               width={['100%', '80%']}
