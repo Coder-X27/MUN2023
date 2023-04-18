@@ -48,71 +48,37 @@ const MunConference = () => {
                     fontWeight={['normal','medium']}
                     fontSize={['15px',"17px"]}
                   >
-                    We have created a promising platform for all the young
-                    diplomats that seek experience and genuine input about their
-                    performances, all credited to the correct MUN environment we
-                    offer. Our success as a MUN community is attributed to our
-                    delegates, and we wish to improve and attain the pinnacle of
-                    perfection for their sake. This year at JECRC MUN 2022, the
-                    experience will be a never before one of its kind adventure
-                    for the delegates. Like always, only grander!
-                  </Text>
-                  <Text
-                    className="about_text"
-                    letterSpacing={'1px'}
-                    fontWeight={['normal','medium']}
-                    fontSize={['15px',"17px"]}
-                    marginTop={'10'}
-                  >
-                    Every year our expanse of expertise has grown beyond the
-                    previously achieved marks, as we continue to set new
-                    benchmarks for our future conferences. The committees we
-                    simulate and the agendas we offer, both give mind-bending
-                    experiences to the delegates. The prominent committees are
-                    General Assembly- Disarmament and International Security
-                    (GA-DISEC), United Nations Security Council (UNSC),
-                    International Monetary Fund (IMF), Lok Sabha, and
-                    International Press. The recent editions have also witnessed
-                    a Special Committe.
-                  </Text>
-                  <Text
-                    className="about_text"
-                    letterSpacing={'1px'}
-                    fontWeight={['normal','medium']}
-                    fontSize={['15px',"17px"]}
-                    marginTop={'10'}
-                  >
-                    Till the eighth edition, we have hosted approximately 2000+
-                    delegates, including international delegates as well. To
-                    appreciate the endeavors of the participants and inspire
-                    them to sharpen their skills of diplomacy, we have had some
-                    renowned chief guests. For JECRC MUN 2018, we were graced by
-                    the presence of Shri Manishankar Aiyar, politician and
-                    diplomat and Shri Anand Chulani, a world-famous motivational
-                    speaker. In the eighth edition of 2019, the green-Hyderabad
-                    pioneer, Ms Hari Chandna Dasari, IAS ZHMC and Dr Jawahar
-                    Surisetti blessed us with their presence and filled the
-                    spirits of delegates with enthusiasm.
-                  </Text>
-                  <Text
-                    className="about_text"
-                    letterSpacing={'1px'}
-                    fontWeight={['normal','medium']}
-                    fontSize={['15px',"17px"]}
-                    marginTop={'10'}
-                  >
-                    The Zero Hour Summit aims to center the voices of our
-                    college youth in the conversation about national and
-                    international issues and environmental justice. We intend to
-                    develop a discussion platform for topics of public interest
-                    that requires urgent attention. Zero Hour Summit is going to
-                    be an in-house debate competition that is bound to discuss 4
-                    agendas. Agendas do not matter to a man without thought but
-                    torture the hearts of people who actively think about this
-                    world we live in. With these debates, we aim to move our
-                    students towards constant growth and development in
-                    thinking, research, and speaking skills, and the ability to
-                    have a sound opinion about matters of interest.
+                  Someone wise once said it is better to debate a question without settling it than to settle a question without debate.<br /><br />
+                  JECRC MUN is immensely scornful to announce another triumphant event that once again raised their benchmark across the 
+                  state, Zero Hour Submit 2. The event was organized in JECRC College on the 3rd of December 2022 by JECRC Model UN; a 
+                  student-driven debating event that is a "360-minute battle of opinion" for campus students, who aspired to overcome 
+                  their dread of public speaking.<br /><br />
+                  ZHS was planned and organized in such a way as to furnish students from 1st to 4th year with a platform to voice up their
+                  discussion about national and international issues and environmental justice. The competition saw the participation of 
+                  250+ debaters from campus, and the Executive Board included esteemed final-year students of Laws background. The 
+                  atmosphere was electric as the participants eagerly awaited the start of the competition. The entire debate session was 
+                  divided into committees to discuss the following agendas:<br /><br />
+
+                  1. The reservation system in India<br /><br />
+                  2. Privacy right<br /><br />
+                  3. A world with A.I.<br /><br />
+                  4. Millennials vs Gen Z.<br /><br />
+                  The debate topics in Zero Hour Submit were current and relevant issues, ranging from politics to social. Every team 
+                  comprised 3 participants, who had to deliver their arguments in front of a panel of judges. A fair chance to present 
+                  their viewpoints and rebut opposing arguments. <br /><br />
+                  Criteria of Judgement: Teams were evaluated based on their content, delivery, and overall performance. Judges were 
+                  looking for a well-constructed argument, supported by relevant evidence delivered with conviction. To begin with, every 
+                  participant spoke their mind on their cases.The session was a kaleidoscope of opinions, thoughts, and perspectives that 
+                  enhanced the knowledge and understanding of the topics. The talent we saw in ZHS'22 makes us believe in the bright future
+                  of JECRC in the coming years.
+                  The debaters displayed confidence in presenting their arguments and with so much of hot discussions and debating, 2 teams
+                  from each agenda were chosen as the winner and runner-up. The students at Zero Hour Summit 2.0, experienced exhilarating 
+                  sessions of debate and discussion on burning topics.
+                  Learning: The day-long sessions taught students the art of political analysis and problem-solving. The students learned 
+                  the finer nuances of conducting meaningful research and oratory skills. The event marked an end with the prize 
+                  distribution ceremony for the award winners.
+                  With that JECRC MUN, aspire to organize more such events to build the leaders for tomorrow. Because here at JECRC MUN we 
+                  believe, words are sharper than the sword<br /><br />
                   </Text>
                 </CardBody>
               </Card>

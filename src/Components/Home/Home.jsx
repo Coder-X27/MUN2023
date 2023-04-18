@@ -139,7 +139,7 @@ const Home = () => {
               </Link>
             </VStack>
             <VStack alignItems={['center', 'flex-end']} pt={'8%'} width={['100%', '50%']}>
-              <Image width={['85%', '80%']} src={intro} />
+              <Image width={['85%', '80%']} src={intro} boxShadow="0px 0px 32px rgba(0, 0, 0, 0.6)"/>
             </VStack>
           </Stack>
           <Stack width={'100%'} marginTop={['10', '20']} alignItems={'center'}>
@@ -212,18 +212,11 @@ const Home = () => {
                 fontWeight={'medium'}
                 textAlign={'justify'}
               >
-                The Zero Hour Summit aims to center the voices of our college
-                youth in the conversation about national and international
-                issues and environmental justice. We intend to develop a
-                discussion platform for topics of public interest that requires
-                urgent attention. Zero Hour Summit is going to be an in-house
-                debate competition that is bound to discuss 4 agendas. Agendas
-                do not matter to a man without thought but torture the hearts of
-                people who actively think about this world we live in. With
-                these debates, we aim to move our students towards constant
-                growth and development in thinking, research, and speaking
-                skills, and the ability to have a sound opinion about matters of
-                interest.
+              Someone wise once said it is better to debate a question without settling it than to settle a question without debate.<br />
+              JECRC MUN is immensely scornful to announce another triumphant event that once again raised their benchmark across the state,
+              Zero Hour Submit 2.0 The event was organized in JECRC College on the 3rd of December 2022 by JECRC Model UN; a student-driven 
+              debating event that is a "360-minute battle of opinion" for campus students, who aspired to overcome their dread of public 
+              speaking.
               </Text>
               <Link onClick={onClose} to="/zerohoursummit">
               <Button variant={'solid'} colorScheme="green" size={['md', 'lg']}>
