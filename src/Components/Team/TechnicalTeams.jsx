@@ -25,7 +25,7 @@ function TechnicalTeam() {
             templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]}
             gap={6}
             marginTop={'20'}
-            marginBottom={'20'}
+            paddingBottom={'20'}
           >
             {members &&
               members.map(member => {
