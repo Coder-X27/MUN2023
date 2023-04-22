@@ -12,6 +12,8 @@ import Contact from './Components/Contact';
 import Sponser from './Components/Sponsers/Sponser';
 import Teams from './Components/Team/Teams';
 import TechnicalTeams from './Components/Team/TechnicalTeams';
+import GalleryZhs from './Components/Gallery/Gallery_zhs'
+import Collaboration from './Components/Collaboration'
 function App() {
   window.addEventListener('contextmenu', e => {
     e.preventDefault();
@@ -30,6 +32,8 @@ function App() {
         <Route element={<Contact />} exact path='/contact' />
         <Route element={<Teams />} exact path='/team' />
         <Route element={<TechnicalTeams />} exact path='/technicalteam' />
+        <Route element={<GalleryZhs />} exact path='/GalleryZhs' />
+        <Route element={<Collaboration />} exact path='/Collaboration' />
       </Routes>
       <Footer />
     </Router>

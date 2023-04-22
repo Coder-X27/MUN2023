@@ -1,11 +1,11 @@
 import { Grid, Image, Box } from '@chakra-ui/react';
 import AboutBanner from '../About/AboutBanner';
-import images from './GalleryData.json';
+import images from './Gallery_zhsData.json';
 
-function Gallery() {
+function GalleryZhs() {
   return (
     <>
-      <AboutBanner munheading={'GALLERY'} />
+      <AboutBanner munheading={'ZERO HOUR SUMMIT GALLERY'} />
       <Box pl={['0', '10']} pt={'10'} bg="green.50" pb={'10'}>
         <Grid
           templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
@@ -36,4 +36,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default GalleryZhs;
