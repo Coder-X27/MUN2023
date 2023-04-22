@@ -13,6 +13,7 @@ import {
   Stack,
   Text,
   VStack,
+  Grid,
   useDisclosure
 } from '@chakra-ui/react';
 import React from 'react';
@@ -30,6 +31,7 @@ import ip_logo from '../../Assets/Logos/ip-logo.png';
 import unhrc from '../../Assets/Logos/UNHRC.png';
 import unga from '../../Assets/Logos/UNGA.png';
 import zhs from '../../Assets/images/Group 133.png';
+import Speaker from './speaker.json'
 import './Home.css';
 import {
   FaAngellist,
@@ -62,8 +64,18 @@ const Home = () => {
           >
             JECRC MUN
           </Heading>
+          <Heading
+            color={'white'}
+            fontSize={['2xl', '4xl']}
+            fontWeight="semibold"
+          >
+            12th Edition
+          </Heading>
           <Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '5xl']}>
-            Empowering Deliberations <br /> Shaping The World
+            Empowering Deliberations <br /> Shaping The World <br /> 
+          </Heading>
+          <Heading textAlign={'center'} color={'white'} fontSize={['2xl', '4xl']}>
+          13-14 May 2023 
           </Heading>
           <Link to="/register">
             <Button
@@ -74,6 +86,7 @@ const Home = () => {
               color="green.300"
               marginTop={'10'}
               p="7"
+              background={'rgba(255, 255, 255,0.25)'}
             >
               <Heading fontSize={['2xl', '3xl']}>Register Now !</Heading>
             </Button>
@@ -971,6 +984,46 @@ const Home = () => {
             </Button> */}
           </Container>
         </Container>
+      </Box>
+
+      {/* PREVIOUS SPEAKER */}
+
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pt={5} pb={"4%"}>
+          <Heading
+            textAlign={'center'}
+            color="black"
+            marginBottom={'50px'}
+            letterSpacing="4px"
+          >
+            OUR PREVIOUS SPEAKER
+          </Heading>
+          <Grid
+            templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
+            gap={5}
+            ml={['0','10%']}
+          >
+          {Speaker &&
+              Speaker.map(Speakers => {
+                const { name, src, desc, } = Speakers;
+                return (
+                <Box textAlign="center">
+                  <Box
+                    w="200px"
+                    h="200px"
+                    borderRadius="full"
+                    overflow="hidden"
+                    mx="auto"
+                  >
+                    <Image src={src} objectFit="cover"/>
+                  </Box>
+                  <Heading as="h2" fontSize="xl" mt={5} mb={2}>
+                    {name}
+                  </Heading>
+                  <Box>{desc}</Box>
+                </Box>
+                );
+              })}          
+          </Grid>
       </Box>
     </>
   );

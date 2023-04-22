@@ -17,7 +17,7 @@ import {
 import React from 'react';
 import { RiMenu5Fill, RiTeamLine, RiRegisteredLine } from 'react-icons/ri';
 import { GiSmartphone } from 'react-icons/gi';
-import { GrDocumentConfig, GrGallery } from 'react-icons/gr';
+import { GrDocumentConfig, GrGallery,GrMoney} from 'react-icons/gr';
 import { AiOutlineHome } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { FaChevronDown, FaRegHandshake } from 'react-icons/fa';
@@ -96,18 +96,40 @@ const Header = () => {
                   Agendas
                 </Button>
               </Link> */}
-              <Link onClick={onClose} to="/gallery">
-                <Button
-                  variant="ghost"
-                  leftIcon={<GrGallery fontSize="18px" />}
-                >
-                  Gallery
-                </Button>
-              </Link>
-              <Link onClick={onClose} to="/sponsers">
+              <Link onClick={onClose} to="/Collaboration">
                 <Button
                   variant="ghost"
                   leftIcon={<FaRegHandshake fontSize="18px" />}
+                >
+                  Collaboration
+                </Button>
+              </Link>
+              <Menu>
+                <MenuButton
+                  variant="ghost"
+                  as={Button}
+                  rightIcon={<FaChevronDown />}
+                  leftIcon={<GrGallery fontSize="18px" />}
+                >
+                  Gallery
+                </MenuButton>
+                <MenuList>
+                  <MenuItem>
+                    <Link onClick={onClose} to="/gallery">
+                      <Button variant="ghost">MUN Conference</Button>
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link onClick={onClose} to="/GalleryZhs">
+                      <Button variant="ghost">Zero Hour Summit</Button>
+                    </Link>
+                  </MenuItem>
+                </MenuList>
+              </Menu>
+              <Link onClick={onClose} to="/sponsers">
+                <Button
+                  variant="ghost"
+                  leftIcon={<GrMoney fontSize="18px" />}
                 >
                   Sponsors
                 </Button>
