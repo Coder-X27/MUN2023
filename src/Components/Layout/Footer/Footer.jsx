@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <Box backgroundColor={'black'} maxW="100vw" minH={'40vh'}>
       <Container
-        maxW={['90%','80%']}
+        maxW={['90%', '80%']}
         size={'100%'}
         display={'flex'}
         justifyContent={'center'}
@@ -46,13 +46,15 @@ const Footer = () => {
               <Heading
                 fontWeight={'semibold'}
                 color="green.500"
-                fontSize={['13px','20px']}
+                fontSize={['13px', '20px']}
               >
                 Address
               </Heading>
-              <Text color={'white'} fontSize={['8px','15px']}>
+              <Text color={'white'} fontSize={['8px', '15px']}>
                 JECRC College, <br /> Shri Ram Ki Nangal, <br /> via Sitapura
-                RIICO, Tonk Road, Jaipur<br />Pincode - 302 022
+                RIICO, Tonk Road, Jaipur
+                <br />
+                Pincode - 302 022
               </Text>
             </VStack>
             <VStack
@@ -64,11 +66,11 @@ const Footer = () => {
               <Heading
                 fontWeight={'semibold'}
                 color="green.500"
-                fontSize={['13px','20px']}
+                fontSize={['13px', '20px']}
               >
                 Email
               </Heading>
-              <Text color={'white'} fontSize={['8px','15px']}>
+              <Text color={'white'} fontSize={['8px', '15px']}>
                 <Link href="mailto:mun@jecrc.ac.in">mun@jecrc.ac.in</Link>
               </Text>
             </VStack>
@@ -81,11 +83,11 @@ const Footer = () => {
               <Heading
                 fontWeight={'semibold'}
                 color="green.500"
-                fontSize={['13px','20px']}
+                fontSize={['13px', '20px']}
               >
                 Contacts
               </Heading>
-              <Text  color={'white'} fontSize={['8px','15px']}>
+              <Text color={'white'} fontSize={['8px', '15px']}>
                 Pratham Kabra - 7073616967 <br /> Shyam Garg - 7073168531
               </Text>
             </VStack>
@@ -93,23 +95,43 @@ const Footer = () => {
           <Text textAlign={'center'} width={'100%'} color="green.500">
             - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -{' '}
           </Text>
-          <Box display={'flex'} flexDirection={['column','row']} justifyContent="center" alignItems={'center'}>
-            <Text color={'white'} fontSize={['13px','20px']}>
-              This site is maintained and developed by  {' '} 
+          <Box
+            display={'flex'}
+            flexDirection={['column', 'row']}
+            justifyContent="center"
+            alignItems={'center'}
+          >
+            <Text color={'white'} fontSize={['13px', '20px']}>
+              This site is maintained and developed by{' '}
             </Text>
-            <Text color={'green.500'} fontSize={['13px','18px']}>
+            <Text color={'green.500'} fontSize={['13px', '18px']}>
               <Link to="/technicalteam"> - JECRC Techincal Team</Link>
             </Text>
           </Box>
-          <Wrap >
-            <Button size={'md'}  colorScheme="facebook" ><FaFacebook />
-            </Button>
-            <Button size={'md'} colorScheme="twitter"><FaTwitter />
-            </Button>
-            <Button size={'md'} colorScheme="pink" ><FaInstagram />
-            </Button>
-            <Button size={'md'} colorScheme="linkedin"><FaLinkedin />
-            </Button>
+          <Wrap marginBottom={'10'}>
+            <Link target="_blank" to="https://www.instagram.com/jecrcmun/">
+              <Button size={'md'} colorScheme="facebook">
+                <FaFacebook />
+              </Button>
+            </Link>
+            <Link target="_blank" to="https://www.facebook.com/jecrcmun/">
+              <Button size={'md'} colorScheme="twitter">
+                <FaTwitter />
+              </Button>
+            </Link>
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/company/jecrc-mun/mycompany/"
+            >
+              <Button size={'md'} colorScheme="pink">
+                <FaInstagram />
+              </Button>
+            </Link>
+            <Link target="_blank" to="https://twitter.com/jecrc_mun">
+              <Button size={'md'} colorScheme="linkedin">
+                <FaLinkedin />
+              </Button>
+            </Link>
           </Wrap>
         </VStack>
       </Container>
