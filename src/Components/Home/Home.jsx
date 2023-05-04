@@ -14,6 +14,7 @@ import {
   Text,
   VStack,
   Grid,
+  useColorModeValue,
   useDisclosure
 } from '@chakra-ui/react';
 import React from 'react';
@@ -874,14 +875,96 @@ const Home = () => {
             justifyContent="center"
             alignItems={'center'}
           >
-            <Heading color={'white'} letterSpacing="2px" marginTop={'20'}>
+            <Heading color={'white'} letterSpacing="2px" marginTop={'0'} marginBottom={'10'}>
               {' '}
-              CHIEF GUESTS
+              CHIEF GUEST
             </Heading>
-            <Heading color={'white'} letterSpacing="2px" marginTop={'20'}>
+            {/* <Heading color={'white'} letterSpacing="2px" marginTop={'20'}>
               {' '}
               To be Announced Soon ....
-            </Heading>
+            </Heading> */}
+            <Stack
+              borderWidth="1px"
+              borderRadius="lg"
+              w={{ sm: '100%', md: '85%' }}
+              height={{ sm: '70%', md: '70%' }}
+              direction={{ base: 'column', md: 'row' }}
+              bg={useColorModeValue('white', 'gray.900')}
+              boxShadow={'2xl'}
+              padding={4}
+              marginBottom={10}
+              >
+              <Flex flex={1} bg="blue.200">
+                <Image
+                  objectFit="cover"
+                  boxSize="100%"
+                  src={
+                    'https://attend.ieee.org/r10htc-2021/wp-content/uploads/sites/322/image0-1536x1536.jpeg'
+                  }
+                />
+              </Flex>
+              <Stack
+                flex={1}
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                p={1}
+                pt={2}>
+                <Heading fontSize={'2xl'} fontFamily={'body'}>
+                  Ramanan Ramanathan
+                </Heading>
+                
+                <Text
+                  color={useColorModeValue('gray.700', 'gray.400')}
+                  textAlign={["left","justify"]}
+                  px={3}>
+                  
+                  Ramanan Ramanathan is a highly esteemed figure in the field of innovation and technology in India. He is a former 
+                  (First) Mission Director of Atal Innovation Mission, a flagship program of the Indian Government that aims to promote
+                  innovation and entrepreneurship in the country. Ramanan also served as an Additional Secretary at NITI Aayog, a policy
+                  think-tank that works towards sustainable development goals in India. With over two decades of experience in
+                  innovation and entrepreneurship, Ramanan has made significant contributions to the growth of the startup ecosystem
+                  in India. He has been instrumental in shaping several initiatives aimed at nurturing the next generation of 
+                  innovators and entrepreneurs in the country. Ramanan is a highly sought-after speaker and has delivered talks on 
+                  innovation and entrepreneurship at various national and international conferences. His vast experience and 
+                  insightful perspectives on the subject make him an invaluable addition to any forum that focuses on innovation,
+                  technology, and entrepreneurship.
+                  
+                </Text>
+                
+
+                <Stack
+                  width={'33%'}
+                  mt={'2rem'}
+                  direction={'row'}
+                  padding={2}
+                  justifyContent={'space-between'}
+                  alignItems={'center'}>
+                  
+                  <Button
+                    flex={1}
+                    width={'100%'}
+                    fontSize={'sm'}
+                    rounded={'full'}
+                    bg={'blue.400'}
+                    color={'white'}
+                    boxShadow={
+                      '0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'
+                    }
+                    _hover={{
+                      bg: 'blue.500',
+                    }}
+                    _focus={{
+                      bg: 'blue.500',
+                    }}>
+                    <Link onClick={onClose} to="https://www.linkedin.com/in/rramanan27">
+                    LinkedIn
+                    </Link>
+                  </Button>
+                
+                </Stack>
+              </Stack>
+            </Stack>
             {/* <Card
               width={['100%', '90%']}
               direction={{ base: 'column', sm: 'row' }}
@@ -893,7 +976,7 @@ const Home = () => {
               <Image
                 objectFit="cover"
                 maxW={{ base: '100%', sm: '300px' }}
-                src="https://www.jecrcmun.in/images/Satish.jpg"
+                src={saloni}
                 alt="Caffe Latte"
               />
 
@@ -927,52 +1010,8 @@ const Home = () => {
                   </Text>
                 </CardBody>
               </Stack>
-            </Card>
-            <Card
-              width={['100%', '90%']}
-              direction={{ base: 'column', sm: 'row-reverse' }}
-              overflow="hidden"
-              variant="filled"
-              marginTop={'10'}
-            >
-              <Image
-                objectFit="cover"
-                maxW={{ base: '100%', sm: '300px' }}
-                src="https://www.jecrcmun.in/images/Munshi.jpeg"
-                alt="Caffe Latte"
-              />
-
-              <Stack>
-                <CardBody p={['15px', '50px']}>
-                  <Heading size="lg" fontWeight={'semibold'} fontFamily="body">
-                    Dr. Munish Jindal
-                  </Heading>
-                  <Text size="md" fontStyle={'italic'}>
-                    Founder & CEO HoverRobotixe
-                  </Text>
-
-                  <Text py="2" fontSize={['15px', '18px']}>
-                    Dr. Munish Jindal is the Founder & CEO of HoverRobotix and
-                    the Founding President of MENTORx Global. He is awarded and
-                    honored with highest civilian honor “Karmaveer Chakra” by
-                    United Nations. He is the Noble Asian of the Year 2018 as
-                    well as the TEDx Speaker. He is the man who followed his
-                    dreams. He is MBA, CPA from Australia. He holds Ph.D in
-                    Robotics & Artificial Intelligence from USA. He came back to
-                    India making it big for himself and his fellow citizen. He
-                    is into suitcase living, keep on traveling all the time and
-                    living with the philosophy of making others rise. Dr. Jindal
-                    has penned down 12 books, has 6 patents in his name in
-                    India, Australia and Germany. He is the one who launched the
-                    concept of Hoverboards, autobots & Mobility Robots in India.
-                    He initiated the ideas of “Education, Empower, Elevate” in
-                    India with MENTORx. He is the one who believes in making
-                    others rise.
-                  </Text>
-                </CardBody>
-              </Stack>
-            </Card>
-            <Button
+            </Card> */}
+            {/* <Button
               variant={'solid'}
               colorScheme="green"
               size={'lg'}

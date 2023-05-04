@@ -78,6 +78,7 @@ function Sponsers() {
                 const { src, alt } = image;
                 return (
                   <Image
+                    background={'white'}
                     key={src}
                     src={src}
                     alt={alt}
