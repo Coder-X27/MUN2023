@@ -56,10 +56,10 @@ const Registration = () => {
                 </CardBody>
                 <CardFooter display={'flex'} flexDirection="column"  justifyContent='center'>
                   <Text textAlign={'center'}>
-                    Priority Round 1800/-
+                     
                   </Text>
                   <Text textAlign={'center'} marginBottom="5">
-                    First Round 2000/-
+                    Delegate Fees 2000/-
                   </Text>
                   <Button 
                   colorScheme={'green'} 
@@ -81,10 +81,10 @@ const Registration = () => {
                 </CardBody>
                 <CardFooter display={'flex'} flexDirection="column"  justifyContent='center'>
                 <Text textAlign={'center'}>
-                    Priority Round 1800/-
+                     
                   </Text>
                   <Text textAlign={'center'} marginBottom="5">
-                    First Round 2000/-
+                    Delegate Fees 2000/-
                   </Text>
                   <Button 
                   colorScheme={'green'} 
