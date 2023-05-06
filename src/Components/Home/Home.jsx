@@ -934,13 +934,32 @@ const Home = () => {
                 
 
                 <Stack
-                  width={'33%'}
+                  width={'100%'}
                   mt={'2rem'}
                   direction={'row'}
                   padding={2}
                   justifyContent={'space-between'}
                   alignItems={'center'}>
-                  
+                  <Button
+                    flex={1}
+                    width={'100%'}
+                    fontSize={'sm'}
+                    rounded={'full'}
+                    bg={'green.500'}
+                    color={'white'}
+                    boxShadow={
+                      '0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'
+                    }
+                    _hover={{
+                      bg: 'green.500',
+                    }}
+                    _focus={{
+                      bg: 'green.500',
+                    }}>
+                    <Link onClick={onClose} to="/Ramanan">
+                    Read More
+                    </Link>
+                  </Button>
                   <Button
                     flex={1}
                     width={'100%'}
@@ -961,6 +980,7 @@ const Home = () => {
                     LinkedIn
                     </Link>
                   </Button>
+
                 
                 </Stack>
               </Stack>

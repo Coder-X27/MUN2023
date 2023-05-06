@@ -12,8 +12,9 @@ import Contact from './Components/Contact';
 import Sponser from './Components/Sponsers/Sponser';
 import Teams from './Components/Team/Teams';
 import TechnicalTeams from './Components/Team/TechnicalTeams';
-import GalleryZhs from './Components/Gallery/Gallery_zhs'
-import Collaboration from './Components/Collaboration'
+import GalleryZhs from './Components/Gallery/Gallery_zhs';
+import Collaboration from './Components/Collaboration';
+import Ramanan from './Components/Ramanan';
 function App() {
   window.addEventListener('contextmenu', e => {
     e.preventDefault();
@@ -34,6 +35,7 @@ function App() {
         <Route element={<TechnicalTeams />} exact path='/technicalteam' />
         <Route element={<GalleryZhs />} exact path='/GalleryZhs' />
         <Route element={<Collaboration />} exact path='/Collaboration' />
+        <Route element={<Ramanan />} exact path='/Ramanan' />
       </Routes>
       <Footer />
     </Router>
