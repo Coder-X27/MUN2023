@@ -874,7 +874,7 @@ const Home = () => {
       
       {/* EB SECTION */}
 
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} mb={10}>
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pb={10}>
         <Container
           minWidth={'85%'}
           minHeight="80vh"
