@@ -1353,7 +1353,7 @@ const Home = () => {
                       
                       textTransform="uppercase"
                     >
-                    Vice President
+                    head of photography
                     </Box>
                   </Box>
                 </Box>
