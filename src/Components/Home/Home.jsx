@@ -15,7 +15,12 @@ import {
   VStack,
   Grid,
   useColorModeValue,
-  useDisclosure
+  useDisclosure,
+  Tabs,
+  TabList, 
+  TabPanels, 
+  Tab,
+  TabPanel
 } from '@chakra-ui/react';
 import React from 'react';
 import shrey from "../../Assets/testimonials/shrey.jpg";
@@ -714,9 +719,19 @@ const Home = () => {
               </Stack>
             </Card>
             </Container>
+        
       </Box>
       {/* TESTIMONIALS  */}
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pt={5} pb={"4%"}>
+      <Box 
+        backgroundAttachment={'fixed'}
+        backgroundColor="blackAlpha.600"
+        backgroundImage={bg}
+        backgroundPosition="center"
+        backgroundRepeat={'no-repeat'}
+        backgroundSize="cover"
+        
+      >
+      <Container background={'blackAlpha.800'} minWidth="100%">
         <Container
           maxWidth={['100%','85%']}
           minHeight="100vh"
@@ -724,14 +739,12 @@ const Home = () => {
           flexDir={'column'}
           justifyContent="center"
           alignItems={'center'}
+          pb={'5%'}
+          pt={'5%'}
         >
-          <Heading
-            textAlign={'center'}
-            color="black"
-            marginBottom={'50px'}
-            letterSpacing="4px"
-          >
-            TESTIMONIALS
+          <Heading color={'white'} letterSpacing="2px" marginTop={'0'} marginBottom={'10'}>
+              {' '}
+              TESTIMONIALS
           </Heading>
           <SimpleGrid
             spacing={4}
@@ -856,7 +869,502 @@ const Home = () => {
             </Card>
           </SimpleGrid>
         </Container>
+        </Container>
       </Box>
+      
+      {/* EB SECTION */}
+
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} mb={10}>
+        <Container
+          minWidth={'85%'}
+          minHeight="80vh"
+          display="flex"
+          flexDir={'column'}
+          justifyContent="center"
+          alignItems={'center'}
+        >
+          <Heading color={'green.500'} letterSpacing="2px" marginTop={'20'} pb={10}>
+            {' '}
+            EXECUTIVE BOARD
+          </Heading>
+          <Tabs variant='soft-rounded' colorScheme='green'>
+            <TabList>
+            <Grid
+              templateColumns={['repeat(2, 1fr)', 'repeat(6, 1fr)']}
+              gap={5}
+              ml={['10%','10%']}
+            >
+              <Tab>UNSC</Tab>
+              <Tab>UNGA SOCHUM</Tab>
+              <Tab>AIPPM</Tab>
+              <Tab>UNHRC</Tab>
+              <Tab>ECOFIN</Tab>
+              <Tab>IP</Tab>
+            </Grid>
+            </TabList>
+            <TabPanels>
+              <TabPanel>
+              <Grid
+                templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+                gap={5}
+                ml={['0','10%']}
+              >
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxPNnt.md.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      SHIVANSH AHUJA
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    President
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxLH6F.md.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      MUSKAN PRAJAPAT
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    Vice President
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              </Grid>
+        
+                </TabPanel>
+                <TabPanel>
+                  <Grid
+                templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+                gap={5}
+                ml={['0','10%']}
+              >
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxtDUF.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      GOVIND GOYAL
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    CHAIRPERSON
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxtpRa.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      JYESHTA SINGH
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    Vice CHAIRPERSON
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              </Grid>
+                </TabPanel>
+                <TabPanel>
+                  <Grid
+                templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+                gap={5}
+                ml={['0','10%']}
+              >
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxD9Dv.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      RAHUL MENON
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    MODERATOR
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxD2iN.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      LOVISHA JINDAL
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    DEPUTY M0DERATOR
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              </Grid>
+                </TabPanel>
+                <TabPanel>
+                  <Grid
+                templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+                gap={5}
+                ml={['0','10%']}
+              >
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxDFfI.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      ARYAN SINGH
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    CHAIRPERSON
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxDJxR.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      BHAVYA PAREEK
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    Vice CHAIRPERSON
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              </Grid>
+                </TabPanel>
+                <TabPanel>
+                  <Grid
+                templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+                gap={5}
+                ml={['0','10%']}
+              >
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxtyOJ.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      RISHABH MITTAL
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    CHAIRPERSON
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxtmHg.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      PEHAL
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    Vice CHAIRPERSON
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              </Grid>
+                </TabPanel>
+                <TabPanel>
+                  <Grid
+                templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)']}
+                gap={5}
+                ml={['0','10%']}
+              >
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUxDdVp.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      RIYA CHOITHANI
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    IP HEAD
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                maxW="sm"
+                borderWidth="1px"
+                borderRadius="lg"
+                overflow="hidden"
+                boxShadow="lg"
+              >
+                <Image src="https://iili.io/HUzAzIs.md.jpg" alt="Picture" />
+
+                <Box p="6">
+                  <Box d="flex" alignItems="baseline">
+                    <Box
+                      mt="1"
+                      fontWeight="bold"
+                      as="h4"
+                      fontSize={'28'}
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      DIVYESH GUPTA
+                    </Box>
+                    <Box
+                      color="gray.500"
+                      fontWeight="semibold"
+                      letterSpacing="wide"
+                      fontSize="xs"
+                      
+                      textTransform="uppercase"
+                    >
+                    Vice President
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              </Grid>
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
+          </Container>
+        </Box>
+
       {/* CHIEF GUESTS  */}
       <Box
         backgroundAttachment={'fixed'}
