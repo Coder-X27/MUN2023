@@ -80,10 +80,10 @@ const Home = () => {
           <Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '5xl']}>
             Empowering Deliberations <br /> Shaping The World <br /> 
           </Heading>
-          <Heading textAlign={'center'} color={'white'} fontSize={['2xl', '4xl']}>
+          {/* <Heading textAlign={'center'} color={'white'} fontSize={['2xl', '4xl']}>
           13-14 May 2023 
-          </Heading>
-          <Link to="/register">
+          </Heading> */}
+          {/* <Link to="/register">
             <Button
               variant={'outline'}
               size="lg"
@@ -96,7 +96,7 @@ const Home = () => {
             >
               <Heading fontSize={['2xl', '3xl']}>Register Now !</Heading>
             </Button>
-          </Link>
+          </Link> */}
         </Container>
       </Box>
       {/* ABOUT SECTION  */}
