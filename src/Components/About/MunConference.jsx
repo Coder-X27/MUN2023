@@ -51,10 +51,10 @@ const MunConference = () => {
                     fontWeight={['normal','medium']}
                     fontSize={['15px',"17px"]}
                   >
-                    Welcome to the 11-year-old legacy of JECRC MUN, established in 2012 by like–minded individuals aiming to create a 
-                    society for youth to discuss, debate, and deliberate present-day crises while experiencing themselves standing in the 
-                    shoe of various world leaders. JECRC MUN, the foremost host of the Model UN Conference in Jaipur was inaugurated by the
-                    eminent educationist Shri Kulbhushan Kothari. 
+                    JECRC Model United Nations (MUN) is a dynamic platform where intellect meets diplomacy, and leaders of tomorrow are 
+                    nurtured. Our MUN Conference, a flagship event, stands as a testament to our commitment to fostering critical thinking,
+                    global awareness, and leadership skills among students.
+
                   </Text>
                   <Text
                     className="about_text"
@@ -63,8 +63,9 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    With together efforts of our enthusiastic and extensive organizing committees over 11 years of conducting Model UN 
-                    conferences, we have arisen as one of the best and most promising Model UN societies in India.
+                    Each year, our MUN Conference transforms the JECRC campus into a vibrant hub of diverse perspectives and meaningful 
+                    discussions. Drawing students from across the nation, this two-day event immerses participants in the intricate world 
+                    of national and international committees, offering a unique opportunity to engage in serious, impactful dialogue.
                   </Text>
                   <Text
                     className="about_text"
@@ -73,9 +74,11 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    Till the 11th edition, we have hosted approximately 2000+ delegates, including international delegates as well.
-                    To appreciate the endeavours of the participants and aspire to involve youth in international dialogue, deliberate 
-                    upon the dire issues of the world, and shape them into strong individuals who'll become the leaders of tomorrow.
+                    JECRC MUN is more than just a conference, it is an experience that goes beyond the committee rooms. It's a celebration 
+                    of ideas, a platform for collaboration, and a journey towards personal and academic growth. Join us as we create a 
+                    space where students not only articulate their views but also develop the skills to shape a better, more interconnected
+                    world.
+
                   </Text>
                   <Text
                     className="about_text"
@@ -84,25 +87,19 @@ const MunConference = () => {
                     fontSize={['15px',"17px"]}
                     marginTop={'10'}
                   >
-                    For JECRC Model UN 2018, we were graced by the presence of Shri Manishankar Aiyar, a politician, and diplomat, and 
-                    Shri Anand Chulani a world-famous motivational speaker. In the eighth edition of 2019, the green-Hyderabad pioneer, 
-                    Ms. Hari Chandna Dasari, IAS ZHMC, and Dr Jawahar Surisetti. For the 10th edition of 2020, Mr. Sanjay Jha, the former 
-                    national spokesperson for the Indian National Congress party. He is also the Former President of All India 
-                    Professionals Congress, Maharashtra. Following the 11th edition in 2022, Dr Munish Jindal, Founder & CEO of 
-                    HoverRobotix and the Founding President of MENTORx Global, he is conferred with the highest civilian honour 
-                    “Karmaveer Chakra” by United Nations. He is the Noble Asian of the Year 2018; the man who followed his dreams, 
-                    and Mr. Satish C. Mehta, Indian Foreign Servies1983 and retired as Director General, Indian Council for Cultural 
-                    Relations in 2015 blessed us with their presence and filled the spirits of delegates with morale and zeal.
+                    Explore the JECRC MUN Conference – where ideas converge, leaders emerge, and global perspectives take center stage.
+
+
                   </Text>
                   <Stack align="center" pt="10">
                 <Link onClick={onClose} to="/register">
-                <Button 
+                {/* <Button 
                 variant={'solid'} 
                 colorScheme="green" 
                 size={['md', 'lg']}
                 >
                   Register Now
-                </Button>
+                </Button> */}
                 </Link>
                 </Stack>
                 </CardBody>

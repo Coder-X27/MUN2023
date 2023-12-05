@@ -12,11 +12,11 @@ import {
   Text,
 } from '@chakra-ui/react';
 import React from 'react';
-import AboutBanner from './About/AboutBanner';
-import reg1 from '../Assets/images/ambassador.png'
-import reg2 from '../Assets/images/delegate.png'
-import reg3 from '../Assets/images/EBM.png'
-import reg4 from '../Assets/images/IPA.png'
+import AboutBanner from '../About/AboutBanner';
+import reg1 from '../../Assets/images/ambassador.png'
+import reg2 from '../../Assets/images/delegate.png'
+import reg3 from '../../Assets/images/EBM.png'
+import reg4 from '../../Assets/images/IPA.png'
 const Registration = () => {
   return (
     <>

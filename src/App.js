@@ -6,7 +6,7 @@ import Agendas from './Components/Agendas';
 import Home from './Components/Home/Home';
 import Footer from './Components/Layout/Footer/Footer';
 import Header from './Components/Layout/Header/Header';
-import Registration from './Components/Registration';
+import Registration from './Components/Registration/Registration';
 import Gallery from './Components/Gallery/Gallery';
 import Contact from './Components/Contact';
 import Sponser from './Components/Sponsers/Sponser';
@@ -15,6 +15,7 @@ import TechnicalTeams from './Components/Team/TechnicalTeams';
 import GalleryZhs from './Components/Gallery/Gallery_zhs';
 import Collaboration from './Components/Collaboration';
 import Ramanan from './Components/Ramanan';
+import Registrationzhs from './Components/Registration/Registrationzhs';
 function App() {
   window.addEventListener('contextmenu', e => {
     e.preventDefault();
@@ -36,6 +37,7 @@ function App() {
         <Route element={<GalleryZhs />} exact path='/GalleryZhs' />
         <Route element={<Collaboration />} exact path='/Collaboration' />
         <Route element={<Ramanan />} exact path='/Ramanan' />
+        <Route element={<Registrationzhs/>} exact path='/registerzhs'/>
       </Routes>
       <Footer />
     </Router>

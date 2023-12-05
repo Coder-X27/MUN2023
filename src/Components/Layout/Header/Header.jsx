@@ -15,7 +15,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import React from 'react';
-import { RiMenu5Fill, RiTeamLine, RiRegisteredLine } from 'react-icons/ri';
+import { RiMenu5Fill, RiTeamLine } from 'react-icons/ri';
 import { GiSmartphone } from 'react-icons/gi';
 import { GrDocumentConfig, GrGallery,GrMoney} from 'react-icons/gr';
 import { AiOutlineHome } from 'react-icons/ai';
@@ -80,14 +80,36 @@ const Header = () => {
                   </MenuItem>
                 </MenuList>
               </Menu>
-              <Link onClick={onClose} to="/register">
+              <Menu>
+                <MenuButton
+                  variant="ghost"
+                  as={Button}
+                  rightIcon={<FaChevronDown />}
+                  leftIcon={<GrDocumentConfig />}
+                >
+                 Registrations
+                </MenuButton>
+                <MenuList>
+                  <MenuItem>
+                    <Link onClick={onClose} to="/register">
+                      <Button variant="ghost">MUN Conference</Button>
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link onClick={onClose} to="/registerzhs">
+                      <Button variant="ghost">Zero Hour Summit</Button>
+                    </Link>
+                  </MenuItem>
+                </MenuList>
+              </Menu>
+              {/* <Link onClick={onClose} to="/register">
                 <Button
                   variant="ghost"
                   leftIcon={<RiRegisteredLine fontSize="18px" />}
                 >
                   Registrations
                 </Button>
-              </Link>
+              </Link> */}
               {/* <Link onClick={onClose} to="/agenda">
                 <Button
                   variant="ghost"

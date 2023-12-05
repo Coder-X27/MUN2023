@@ -101,8 +101,8 @@ function Sponsers() {
             <Card
               p={6}
               bg="white"
-              boxShadow="0px 0px 12px rgba(0, 0, 0, 0.6)"
-              borderRadius="md" 
+              
+              
               
             >
               <form onSubmit={handleSubmit}>

@@ -14,7 +14,6 @@ import {
   Text,
   VStack,
   Grid,
-  useColorModeValue,
   useDisclosure,
   Tabs,
   TabList, 
@@ -38,6 +37,7 @@ import unhrc from '../../Assets/Logos/UNHRC.png';
 import unga from '../../Assets/Logos/UNGA.png';
 import zhs from '../../Assets/images/Group 133.png';
 import Speaker from './speaker.json'
+import commingsoon from '../../Assets/images/sl_120320_38530_07.jpg'
 import './Home.css';
 import {
   FaAngellist,
@@ -64,39 +64,60 @@ const Home = () => {
         >
           <Image width={['190px', '200px']} alignContent="center" src={logo} />
           <Heading
-            color={'white'}
+            color={'green.500'}
             fontSize={['3xl', '5xl']}
             fontWeight="semibold"
+            textAlign={'center'}
           >
-            JECRC MUN
+            JECRC MUN 
           </Heading>
           <Heading
-            color={'white'}
+            color={'green.500'}
+            fontSize={['xl', '3xl']}
+            fontWeight="semibold"
+            textAlign={'center'}
+          >
+          PRESENTS
+          </Heading>
+          {/* <Heading
+            color={'green.500'}
             fontSize={['2xl', '4xl']}
             fontWeight="semibold"
           >
             12th Edition
-          </Heading>
-          <Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '5xl']}>
-            Empowering Deliberations <br /> Shaping The World <br /> 
-          </Heading>
-          {/* <Heading textAlign={'center'} color={'white'} fontSize={['2xl', '4xl']}>
-          13-14 May 2023 
           </Heading> */}
-          {/* <Link to="/register">
+          {/* <Heading textAlign={'center'} color={'green.500'} fontSize={['3xl', '5xl']}>
+            Empowering Deliberations <br /> Shaping The World <br /> 
+          </Heading> */}
+          
+          <Heading textAlign={'center'} color={'white'} fontSize={['3xl', '5xl']} >
+          ZERO HOUR SUMMIT 
+          </Heading>
+          <Heading textAlign={'center'} color={'white'} fontSize={['l', '2xl']} >
+          3rd Edition
+          </Heading>
+          <Link to="https://forms.gle/bZ7JR1bmB8wiTYTs5">
             <Button
               variant={'outline'}
               size="lg"
               border="2px solid white"
               fontWeight="medium"
-              color="green.300"
+              color="green.500"
               marginTop={'10'}
               p="7"
-              background={'rgba(255, 255, 255,0.25)'}
-            >
+              background={'rgba(255, 255, 255,1)'}
+              _hover={{
+                background: 'green.600',
+                color: 'rgba(255,255,255,1)',
+                transition: 'background 0.3s ease', // Add a smooth transition
+              }}
+              >
+              
+            
+            
               <Heading fontSize={['2xl', '3xl']}>Register Now !</Heading>
             </Button>
-          </Link> */}
+          </Link>
         </Container>
       </Box>
       {/* ABOUT SECTION  */}
@@ -141,11 +162,13 @@ const Home = () => {
                 fontWeight={'medium'}
                 textAlign={'justify'}
               >
-                Welcome to the 11-year-old legacy of JECRC MUN, established in 2012 by like–minded individuals aiming to create a society 
-                for youth to discuss, debate, and deliberate present-day crises while experiencing themselves standing in the shoe of 
-                various world leaders. JECRC MUN, the foremost host of the Model UN Conference in Jaipur was inaugurated by the eminent 
-                educationist Shri Kulbhushan Kothari.With together efforts of our enthusiastic and extensive organizing committees over 11 years of conducting Model UN 
-                conferences, we have arisen as one of the best and most promising Model UN societies in India.
+                JECRC MUN is a community established with the aim of creating a society for youth to discuss, debate and deliberate 
+                present-day crises contributing towards solutions for global imbalance.
+
+                Focusing on the need to value ideas and approach toward solutions for the atrocities around the globe, some like-minded 
+                individuals figured a need for such a platform for people to discuss and deliberate With the laying of the foundation by 
+                Shri Kulbhushan Kothari, our journey began in 2012, with us being the first institution in Jaipur and second in Rajasthan 
+                to introduce Model UN to the crowd.
               </Text>
               <Link onClick={onClose} to="/munconference">
               <Button 
@@ -231,11 +254,13 @@ const Home = () => {
                 fontWeight={'medium'}
                 textAlign={'justify'}
               >
-              Someone wise once said it is better to debate a question without settling it than to settle a question without debate.<br />
-              JECRC MUN is immensely scornful to announce another triumphant event that once again raised their benchmark across the state,
-              Zero Hour Submit 2.0 The event was organized in JECRC College on the 3rd of December 2022 by JECRC Model UN; a student-driven 
-              debating event that is a "360-minute battle of opinion" for campus students, who aspired to overcome their dread of public 
-              speaking.
+              Someone wise once said it is better to debate a question without settling it than to settle a question without debate.
+
+              Zero Hour Summit is a  one-day in-house debate competition that will discuss agendas in different committees ranging from 
+              technology to socio-economic arenas. 200-220 students getting together and trying to make their point heard and valued is 
+              an interesting day to imagine for sure. Everything and anything that can cause different people to differ in opinion will 
+              be a possible agenda. 
+
               </Text>
               <Link onClick={onClose} to="/zerohoursummit">
               <Button variant={'solid'} colorScheme="green" size={['md', 'lg']}>
@@ -536,7 +561,7 @@ const Home = () => {
         </Container>
       </Box>
       {/* COMMITIES  */}
-      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'}>
+      <Box width={'100%'} backgroundColor="green.50" minHeight={'100vh'} pb={'20'}>
           <Container
             minWidth={'85%'}
             minHeight="80vh"
@@ -1387,11 +1412,11 @@ const Home = () => {
               {' '}
               CHIEF GUEST
             </Heading>
-            {/* <Heading color={'white'} letterSpacing="2px" marginTop={'20'}>
+            <Heading color={'white'} letterSpacing="2px" marginTop={'20'}>
               {' '}
               To be Announced Soon ....
-            </Heading> */}
-            <Stack
+            </Heading>
+            {/* <Stack
               borderWidth="1px"
               borderRadius="lg"
               w={{ sm: '100%', md: '85%' }}
@@ -1410,6 +1435,7 @@ const Home = () => {
                     'https://attend.ieee.org/r10htc-2021/wp-content/uploads/sites/322/image0-1536x1536.jpeg'
                   }
                 />
+                
               </Flex>
               <Stack
                 flex={1}
@@ -1487,12 +1513,12 @@ const Home = () => {
                     <Link onClick={onClose} to="https://www.linkedin.com/in/rramanan27">
                     LinkedIn
                     </Link>
-                  </Button>
+                  </Button> 
 
                 
                 </Stack>
               </Stack>
-            </Stack>
+            </Stack> */}
             {/* <Card
               width={['100%', '90%']}
               direction={{ base: 'column', sm: 'row' }}

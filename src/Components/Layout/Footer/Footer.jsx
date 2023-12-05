@@ -86,7 +86,7 @@ const Footer = () => {
                 Contacts
               </Heading>
               <Text  color={'white'} fontSize={['8px','15px']}>
-                Pratham Kabra - 7073616967 <br /> Shyam Garg - 7073168531
+                Sapan Mittal - 8764364947 <br /> Manshi Singh - 8005538934
               </Text>
             </VStack>
           </HStack>
@@ -101,16 +101,22 @@ const Footer = () => {
               <Link to="/technicalteam"> - JECRC Techincal Team</Link>
             </Text>
           </Box>
+          <Box pb={'3%'}>
           <Wrap >
+            <Link to='https://www.facebook.com/jecrcmun/' target="_blank" rel="noopener noreferrer">
             <Button size={'md'}  colorScheme="facebook" ><FaFacebook />
-            </Button>
-            <Button size={'md'} colorScheme="twitter"><FaTwitter />
-            </Button>
+            </Button></Link>
+            <Link to='https://x.com/JECRC_MUN?t=qN1KJtP4_r9a1RPt1pHvHQ&s=08' target="_blank" rel="noopener noreferrer">
+            <Button size={'md'} colorScheme="twitter" ><FaTwitter />
+            </Button></Link>
+            <Link to='https://www.instagram.com/jecrcmun/' target="_blank" rel="noopener noreferrer">
             <Button size={'md'} colorScheme="pink" ><FaInstagram />
-            </Button>
+            </Button></Link>
+            <Link to='https://www.linkedin.com/company/jecrc-mun/' target="_blank" rel="noopener noreferrer">
             <Button size={'md'} colorScheme="linkedin"><FaLinkedin />
-            </Button>
+            </Button></Link>
           </Wrap>
+          </Box>
         </VStack>
       </Container>
     </Box>
