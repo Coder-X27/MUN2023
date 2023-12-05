@@ -13,7 +13,7 @@
 {
   "name": "Aditya Sharma",
   "designation": "USG Outreach",
-  "image": "./TeamImages/Aditya Sharma_outreach_.jpg",
+  "image": "./TeamImages/Aditya Sharma_outreach.jpg",
   "linkedin":"https://www.linkedin.com/in/aditya-sharma-012403220"
 },
 {
@@ -55,7 +55,13 @@
 {
   "name":"Yash Agarwal",
   "designation":"USG Outreach",
-  "image":"./TeamImages/Yash Agarwal outreach .jpg",
+  "image":"./TeamImages/Yash Agarwal outreach.jpg",
   "linkedin":"https://www.linkedin.com/in/yash-agarwal-ab43a3259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+},
+{
+  "name":"Bhavya Sharma",
+  "designation":"USG Outreach",
+  "image":"./TeamImages/Bhavya Sharma _Outreach.jpg",
+  "linkedin":"#"
 }
 ]
