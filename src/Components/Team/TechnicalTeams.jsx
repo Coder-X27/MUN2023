@@ -14,7 +14,7 @@ import {
 } from '@chakra-ui/react';
 import AboutBanner from '../About/AboutBanner';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import members from './TechnicalTeam.json';
+import TechTeam from './TechnicalTeam.json';
 function TechnicalTeam() {
   return (
     <>
@@ -27,9 +27,9 @@ function TechnicalTeam() {
             marginTop={'20'}
             paddingBottom={'20'}
           >
-            {members &&
-              members.map(member => {
-                const { name, designation, image, github, linkedin } = member;
+            {TechTeam &&
+              TechTeam.map(TechTeam => {
+                const { name, designation, image, github, linkedin } =TechTeam;
                 return (
                   <GridItem key={image}>
                     <Card maxW="lg" boxShadow={'xl'}>

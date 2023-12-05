@@ -1,217 +1,53 @@
-[
-    {
-      "name": "Arpit Agrawal ",
-      "designation": "Director JECRC",
-      "image": "./TeamImages/arpit sir.webp",
-      "linkedin":"https://www.linkedin.com/in/arpitjecrc/"
-    },
-    {
-      "name": "Pramod Kumar Tiwari",
-      "designation": "Senior Advisor",
-      "image": "./TeamImages/pk tiwari.jpeg",
-      "linkedin":"https://www.linkedin.com/in/pramod-kumar-tiwari-04023536/"
-    },
-    {
-      "name": "Dr Sonia Khubchandani ",
-      "designation": "Faculty Coordinator",
-      "image": "./TeamImages/sonia.jpg",
-      "linkedin":"https://www.linkedin.com/in/dr-sonia-khubchandani-05837035/"
-    },
-    {
-      "name": "Pratham Kabra ",
-      "designation": "Secretary General",
-      "image": "./TeamImages/Pratham_Kabra_SG.jpg",
-      "linkedin":"http://linkedin.com/in/pratham-kabra-027b19192"
-    },
-    {
-      "name": "Shyam Garg",
-      "designation": "Deputy Secretary General",
-      "image": "./TeamImages/Shyam Garg_DSG.jpeg",
-      "linkedin":"https://www.linkedin.com/in/shyam-garg-8480581a2"
-    },
-    {
-      "name": "Ayush Jain",
-      "designation": "Director General",
-      "image": "./TeamImages/ayush.jpg",
-      "linkedin":"#"
-    },
-    {
-      "name": "Divyesh Gupta",
-      "designation": "Deputy Director General",
-      "image": "./TeamImages/divyesh.jpg",
-      "linkedin":"https://www.linkedin.com/in/divyesh16/"
-    },
-    {
-      "name": "Vrindaa Joshi",
-      "designation": "OC President",
-      "image": "./TeamImages/vrinda_dg.jpg",
-      "linkedin":"#"
-    },
+[{
+  "name": "Sapan Mittal",
+  "designation": "Core Member",
+  "image": "./TeamImages/Sapan_Mittal_Content&Collaboration .jpg",
+  "linkedin":"https://www.linkedin.com/in/sapan-mittal-8193361bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+},
     {
       "name": "Khushi Garg",
-      "designation": "USG Technical Head",
-      "image": "./TeamImages/khushiGarg.jpg",
+      "designation": "Core Member",
+      "image": "./TeamImages/Khushi Garg_Technical.jpg",
       "linkedin":"https://www.linkedin.com/in/khushigarg123/"
     },
     {
       "name": "Karan Sharma",
-      "designation": "USG Technical Head",
-      "image": "./TeamImages/KaranSharma_Technical.jpg",
+      "designation": "Core Member",
+      "image": "./TeamImages/Karan_Sharma_Technical.jpg",
       "linkedin":"https://www.linkedin.com/in/karansh99"
     },
     {
-      "name": "Aditya Panwar",
-      "designation": "USG Designing Head",
-      "image": "./TeamImages/Aditya panwar_GD.jpg",
-      "linkedin":"#"
-    },
-    {
-      "name": "Abhijeet Sharma",
-      "designation": "USG Logistics Head ",
-      "image": "./TeamImages/AbhijeetSharma.jpg",
-      "linkedin":"https://www.linkedin.com/in/abhijeetsharma1300/"
-    },
-    {
-      "name": "Manshi Singh",
-      "designation": "USG DA",
-      "image": "./TeamImages/Manshi Singh_Delegates Affairs.jpg",
-      "linkedin":"#"
-    },
-    {
-      "name": "Khushi Khachra",
-      "designation": "USG Creation Head",
-      "image": "./TeamImages/Khushi Kachhara _Creation.jpg",
-      "linkedin":"https://www.linkedin.com/in/khushi-kachhara-65729b23b"
-    },
-    {
-      "name": "Jerin Jacob",
-      "designation": "USG Social Media Head",
-      "image": "./TeamImages/Jerin_SocialMedia.jpg",
-      "linkedin":"#"
-    },
-    {
-      "name": "Chintan Grover",
-      "designation": "USG Technical",
-      "image": "./TeamImages/Chintan_Grover_SocialMedia.jpg",
-      "linkedin":"#"
-    },
-    
-    {
       "name": "Avi Sharma",
-      "designation": "USG Content Head",
-      "image": "./TeamImages/AviSharma_content .jpg",
+      "designation": "Core Member",
+      "image": "./TeamImages/avisharma_content.jpg",
       "linkedin":"https://www.linkedin.com/in/avi-sharma-a50b13212/"
     },
+  
     {
-      "name": "Sapan Mittal",
-      "designation": "USG Collaboration Head",
-      "image": "./TeamImages/Sapan Mittal_Chief Guest & Collaboration Head (1).jpg",
-      "linkedin":"https://www.linkedin.com/in/sapan-mittal-8193361bb"
+      "name": "Manshi Singh",
+      "designation": "Core Member",
+      "image": "./TeamImages/Manshi_da.jpg",
+      "linkedin":"https://www.linkedin.com/in/manshi-singh-bb66261bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+  
+    {
+      "name": "Jerin Jacob",
+      "designation": "Core Member",
+      "image": "./TeamImages/Jerin Jacob_ digital marketing.jpg",
+      "linkedin":"https://www.linkedin.com/in/jerin-jacob-j17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-      "name": "Ishaan Joshi",
-      "designation": "USG Sponsorship Head",
-      "image": "./TeamImages/IshaanJoshi.jpg",
-      "linkedin":"#"
+      "name": "Aditya Panwar",
+      "designation": "Core Member",
+      "image": "./TeamImages/Aditya panwar_Graphic_design .jpg",
+      "linkedin":"https://www.linkedin.com/in/aditya-panwar-1623351bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
       "name": "Poorvi Gupta",
-      "designation": "USG Sponsorship Head",
-      "image": "./TeamImages/PoorviGupta.jpg",
+      "designation": "Core Member",
+      "image": "./TeamImages/poorvi_content.jpg",
       "linkedin":"https://www.linkedin.com/in/poorvi-gupta-bb5aa7229"
-    },
-    {
-      "name": "Gaurav Jindal",
-      "designation": "USG Outreach Head",
-      "image": "./TeamImages/gaurav.jpg",
-      "linkedin":"http://www.linkedin.com/in/gaurav-jindal-674447200"
-    },
-    {
-      "name": "Opal Jain",
-      "designation": "USG Outreach Head",
-      "image": "./TeamImages/opal.jpg",
-      "linkedin":"#"
-    },
-    
-    {
-      "name": "Yash Rajarora",
-      "designation": "USG Technical",
-      "image": "./TeamImages/YashRajArora_tech.webp",
-      "linkedin":"https://www.linkedin.com/in/yash-raj-arora-432728239/"
-    },
-    {
-      "name": "Tejasvi Ola",
-      "designation": "USG Content",
-      "image": "./TeamImages/Tejasvi ola _content.jpg",
-      "linkedin":"https://www.linkedin.com/in/tejasvi-ola-40aa9a24b"
-    },
-    {
-      "name": "Yash Soni",
-      "designation": "USG Cinematography",
-      "image": "./TeamImages/Yash soni_cinematography.png",
-      "linkedin":"https://www.linkedin.com/in/yashsoni08/"
-    },
-    {
-      "name": "Supriya Khandelwal",
-      "designation": "USG Outreach",
-      "image": "./TeamImages/Supriya Khandelwal_outreach_.jpg",
-      "linkedin":"https://www.linkedin.com/in/supriya-khandelwal-29123b226"
-    },
-    {
-      "name": "Khush Goyal",
-      "designation": "USG Designing",
-      "image": "./TeamImages/Khush Goyal _ GD .jpg",
-      "linkedin":"https://www.linkedin.com/in/khushgoyal17/"
-    },
-    {
-      "name": "Siddhi Jain",
-      "designation": "USG Designing",
-      "image": "./TeamImages/Siddhi Jain_GD.jpg",
-      "linkedin":"https://www.linkedin.com/in/siddhi-jain-77298b220"
-    },
-    {
-      "name": "Purvish Vyas",
-      "designation": "USG Cinematography",
-      "image": "./TeamImages/Purvish Vyas cinamatography_.jpg",
-      "linkedin":"https://www.linkedin.com/in/purvish-vyas-668126250"
-    },
-    {
-      "name": "Sarthak Jain",
-      "designation": "USG Digital Marketing",
-      "image": "./TeamImages/Sarthak jain_Digital Marketing_.jpg",
-      "linkedin":"https://www.linkedin.com/in/sarthak-jain-911817227"
-    },
-    {
-      "name": "Sanchali Khandelwal",
-      "designation": "USG DA",
-      "image": "./TeamImages/Sanchali Khandelwal_Deligate affairs_.jpg",
-      "linkedin":"https://www.linkedin.com/in/sanchali-khandelwal-a7736924a"
-    },
-    {
-      "name": "Saloni Jain",
-      "designation": "USG DA",
-      "image": "./TeamImages/Saloni Jain _ Delegates Affair.jpg",
-      "linkedin":"https://www.linkedin.com/in/sj28/"
-    },
-    {
-      "name": "Tanya Moolchandani",
-      "designation": "USG Sponsorship",
-      "image": "./TeamImages/Tanya Moolchandani _ Sponsorship_.jpg",
-      "linkedin":"https://www.linkedin.com/in/tanya-moolchandani-96850523b"
-    },
-    {
-      "name": "Radhika Rajawat",
-      "designation": "USG Collaboration",
-      "image": "./TeamImages/radhika.jpg",
-      "linkedin":"#"
-    },
-    {
-      "name": "Aditya Sharma",
-      "designation": "USG Creation",
-      "image": "./TeamImages/Aditya_Sharma.jpg",
-      "linkedin":"#"
     }
-    
   ]
 
 
